@@ -7,11 +7,8 @@
     </em>
 </p>
 
-<p align="center">
-    <em>
-        The Results are also available online at: 
-    </em>
-</p>
+> [!IMPORTANT]
+> The Results are also available online at: [https://wimmics.github.io/t2s-eval/](https://wimmics.github.io/t2s-eval/)
 
 
 ## Features
