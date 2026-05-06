@@ -1,0 +1,65 @@
+[
+  {
+    "metric": "answerset_f1",
+    "pearson": 0.8304324192286379,
+    "pearson_ci_low": 0.7974505211794434,
+    "pearson_ci_high": 0.8606928683591967,
+    "spearman": 0.8067176130137519,
+    "kendall_tau_b": 0.7406331684850835,
+    "pairwise_accuracy": 0.9827296497921042
+  },
+  {
+    "metric": "qcan-rouge-4-strict",
+    "pearson": 0.40388389229081234,
+    "pearson_ci_low": 0.3380423672106275,
+    "pearson_ci_high": 0.46788449260141896,
+    "spearman": 0.391024252129419,
+    "kendall_tau_b": 0.3243736701301069,
+    "pairwise_accuracy": 0.755090231042908
+  },
+  {
+    "metric": "qcan-rouge-4-flex",
+    "pearson": 0.39923327682324383,
+    "pearson_ci_low": 0.3339039633579584,
+    "pearson_ci_high": 0.46520170580425696,
+    "spearman": 0.38253839035015547,
+    "kendall_tau_b": 0.31551351096816976,
+    "pairwise_accuracy": 0.7499721376827125
+  },
+  {
+    "metric": "qcan-bleu-strict",
+    "pearson": 0.3889016899321787,
+    "pearson_ci_low": 0.3201380031112875,
+    "pearson_ci_high": 0.45648284324445515,
+    "spearman": 0.36752859920880093,
+    "kendall_tau_b": 0.3048897406927999,
+    "pairwise_accuracy": 0.7397616700244332
+  },
+  {
+    "metric": "qcan-bleu-flex",
+    "pearson": 0.3804577155990433,
+    "pearson_ci_low": 0.3102074711532309,
+    "pearson_ci_high": 0.44898426409910475,
+    "spearman": 0.3266525981044384,
+    "kendall_tau_b": 0.2677759114054258,
+    "pairwise_accuracy": 0.7136653950019289
+  },
+  {
+    "metric": "rouge_4",
+    "pearson": 0.36767247531426783,
+    "pearson_ci_low": 0.29729850053327816,
+    "pearson_ci_high": 0.4388199512626141,
+    "spearman": 0.33115351569202284,
+    "kendall_tau_b": 0.2721827272754488,
+    "pairwise_accuracy": 0.7164944918341978
+  },
+  {
+    "metric": "bleu",
+    "pearson": 0.3103322481409686,
+    "pearson_ci_low": 0.2388643086292056,
+    "pearson_ci_high": 0.3814310240113533,
+    "spearman": 0.29942555610425775,
+    "kendall_tau_b": 0.24501669175984306,
+    "pairwise_accuracy": 0.6958763770414506
+  }
+]

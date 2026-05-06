@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>T2S Evaluation Dashboard</title>
+	<style>
+		:root {
+			--bg: #ffffff;
+			--panel: #ffffff;
+			--panel-soft: #fafafa;
+			--text: #1f2937;
+			--muted: #6b7280;
+			--accent: #1f4b99;
+			--border: #d8dde6;
+			--shadow: 0 10px 24px rgba(17, 24, 39, 0.06);
+			--radius-xl: 18px;
+			--radius-lg: 14px;
+			--radius-md: 10px;
+		}
+
+		* { box-sizing: border-box; }
+
+		body {
+			margin: 0;
+			min-height: 100vh;
+			color: var(--text);
+			font-family: Georgia, "Times New Roman", Times, serif;
+			background: var(--bg);
+		}
+
+		.shell {
+			position: relative;
+			width: min(1140px, calc(100vw - 32px));
+			margin: 0 auto;
+			padding: 30px 0 40px;
+		}
+
+		.hero,
+		.card,
+		.footer .note {
+			background: var(--panel);
+			border: 1px solid var(--border);
+			box-shadow: var(--shadow);
+		}
+
+		.hero {
+			padding: 28px;
+			border-radius: var(--radius-xl);
+		}
+
+		.kicker {
+			margin: 0 0 10px;
+			font-size: 0.78rem;
+			letter-spacing: 0.2em;
+			text-transform: uppercase;
+			color: var(--accent);
+			font-weight: 700;
+		}
+
+		h1 {
+			margin: 0;
+			font-size: clamp(2rem, 3.3vw, 3.1rem);
+			line-height: 1.08;
+			font-weight: 700;
+		}
+
+		.lede {
+			max-width: 74ch;
+			margin: 14px 0 0;
+			font-size: 1.04rem;
+			line-height: 1.68;
+			color: var(--muted);
+		}
+
+		.hero-links,
+		.actions,
+		.meta {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 10px;
+		}
+
+		.hero-links { margin-top: 20px; }
+
+		.pill,
+		.action,
+		.badge {
+			border: 1px solid var(--border);
+			border-radius: 999px;
+			background: var(--panel-soft);
+			color: var(--text);
+		}
+
+		.pill,
+		.action {
+			display: inline-flex;
+			align-items: center;
+			padding: 9px 13px;
+			text-decoration: none;
+			font-size: 0.95rem;
+			font-weight: 600;
+		}
+
+		.pill:hover,
+		.action:hover {
+			border-color: var(--accent);
+			background: #eef3ff;
+		}
+
+		.section-label {
+			margin: 26px 0 12px;
+			font-size: 0.78rem;
+			letter-spacing: 0.18em;
+			text-transform: uppercase;
+			color: var(--muted);
+		}
+
+		.grid {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 16px;
+		}
+
+		.card {
+			min-height: 250px;
+			padding: 22px;
+			border-radius: var(--radius-lg);
+			display: flex;
+			flex-direction: column;
+		}
+
+		.card h2 {
+			margin: 0 0 10px;
+			font-size: 1.35rem;
+			line-height: 1.25;
+		}
+
+		.card p {
+			margin: 0;
+			line-height: 1.62;
+			color: var(--muted);
+		}
+
+		.meta { margin-top: 16px; }
+
+		.badge {
+			display: inline-flex;
+			align-items: center;
+			padding: 6px 10px;
+			font-size: 0.82rem;
+			color: var(--muted);
+		}
+
+		.actions {
+			margin-top: auto;
+			padding-top: 18px;
+		}
+
+		.action.primary {
+			background: #f3f6fb;
+		}
+
+		.footer {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 12px;
+			margin-top: 18px;
+		}
+
+		.footer .note {
+			padding: 14px 16px;
+			border-radius: var(--radius-md);
+			line-height: 1.55;
+			color: var(--muted);
+		}
+
+		@media (max-width: 920px) {
+			.grid,
+			.footer {
+				grid-template-columns: 1fr;
+			}
+
+			.hero {
+				padding: 22px;
+			}
+		}
+
+		@media (max-width: 560px) {
+			.shell {
+				width: min(100vw - 20px, 1140px);
+				padding: 12px 0 24px;
+			}
+
+			.card {
+				padding: 18px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<main class="shell">
+		<section class="hero">
+			<p class="kicker">T2S-Eval</p>
+			<h1>Text2SPARQL Evaluation Dashboard</h1>
+			<p class="lede">
+				This is the landing page for the evaluation ecosystem: the core t2s-metrics
+				library, the text2sparql metrics inventory, the text2sparql challenge results dashboard, and the
+				QCan family metric experimentation workspace.
+			</p>
+			<div class="hero-links">
+				<a class="pill" href="https://github.com/Wimmics/t2s-eval" target="_blank" rel="noreferrer">GitHub</a>
+				<a class="pill" href="https://doi.org/10.5281/zenodo.19051440" target="_blank" rel="noreferrer">DOI</a>
+			</div>
+		</section>
+
+		<p class="section-label">Launch points</p>
+		<section class="grid" aria-label="Dashboard tiles">
+			<article class="card">
+				<h2>T2S-Metrics Library</h2>
+				<p>
+					The reusable evaluation library behind the workflow. Use this tile to reach
+					the implementation, documentation, package distribution, and the research
+					reference that explains the project.
+				</p>
+				<div class="actions">
+					<a class="action primary" href="https://github.com/Wimmics/t2s-metrics" target="_blank" rel="noreferrer">GitHub repository</a>
+					<a class="action" href="https://t2s-metrics.readthedocs.io/en/latest/" target="_blank" rel="noreferrer">Documentation</a>
+					<a class="action" href="https://pypi.org/project/t2s-metrics/" target="_blank" rel="noreferrer">PyPI package</a>
+					<a class="action" href="https://doi.org/10.5281/zenodo.19051440" target="_blank" rel="noreferrer">DOI</a>
+				</div>
+			</article>
+
+			<article class="card">
+				<h2>Text2SPARQL Metrics Inventory</h2>
+				<p>
+					Browse the curated inventory of metrics and references used in the
+					Text2SPARQL evaluation space. This page is the entry point for the
+					literature-backed taxonomy and supporting evidence.
+				</p>
+				<div class="actions">
+					<a class="action primary" href="./text2sparql-metrics-inventory/" target="_blank">Open inventory</a>
+					<a class="action" href="https://github.com/Wimmics/t2s-eval/tree/main/datasets/Text2SPARQL_Metrics_Inventory.xlsx" target="_blank" rel="noreferrer">Source Code</a>
+				</div>
+			</article>
+
+			<article class="card">
+				<h2>Text2SPARQL Challenge 2025/2026 Results</h2>
+				<p>
+					The interactive dashboard for challenge results and metric comparisons.
+					Use it to explore the evaluation outputs already generated.
+				</p>
+				<div class="actions">
+					<a class="action primary" href="./text-to-sparql-dashboard/" target="_blank">Open dashboard</a>
+					<a class="action" href="https://github.com/Wimmics/t2s-eval/tree/main/datasets/" target="_blank" rel="noreferrer">Source Code</a>
+				</div>
+			</article>
+
+			<article class="card">
+				<h2>QCan Family Metrics Results Analysis and Experimentations</h2>
+				<p>
+					The  QCan workspace for metric experiments, aggregation views, and
+					reproducible summaries. It packages the analysis outputs as a standalone
+					snapshot.
+				</p>
+				<div class="actions">
+					<a class="action primary" href="./qcan-eval-static/" target="_blank">Open QCan workspace</a>
+					<a class="action" href="https://github.com/Wimmics/t2s-eval/tree/main/src/qcan_eval" target="_blank" rel="noreferrer">Source Code</a>
+				</div>
+			</article>
+		</section>
+
+	</main>
+</body>
+</html>

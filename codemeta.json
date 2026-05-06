@@ -1,0 +1,135 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "type": "SoftwareSourceCode",
+    "author": [
+        {
+            "id": "https://orcid.org/0000-0003-4509-9537",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "CNRS"
+            },
+            "email": "yousouf.taghzouti@inria.fr",
+            "familyName": "Taghzouti",
+            "givenName": "Yousouf"
+        },
+        {
+            "type": "Role",
+            "schema:author": "https://orcid.org/0000-0003-4509-9537",
+            "roleName": "Developper"
+        },
+        {
+            "type": "Role",
+            "schema:author": "https://orcid.org/0000-0003-4509-9537",
+            "roleName": "Design"
+        },
+                {
+            "id": "https://orcid.org/0000-0003-0543-1232",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Inria"
+            },
+            "email": "fabien.gandon@inria.fr",
+            "familyName": "Gandon",
+            "givenName": "Fabien"
+        },
+        {
+            "type": "Role",
+            "schema:author": "https://orcid.org/0000-0003-0543-1232",
+            "roleName": "Design"
+        },
+        {
+            "id": "https://orcid.org/0000-0002-5293-3916",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "CNRS"
+            },
+            "email": "tao.jiang@cnrs.fr",
+            "familyName": "Jiang",
+            "givenName": "Tao"
+        },
+        {
+            "type": "Role",
+            "schema:author": "https://orcid.org/0000-0002-5293-3916",
+            "roleName": "Design"
+        },
+        {
+            "id": "https://orcid.org/0000-0003-1157-9030",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Inria"
+            },
+            "email": "camille.juigne@inria.fr",
+            "familyName": "Juigné",
+            "givenName": "Camille"
+        },
+        {
+            "type": "Role",
+            "schema:author": "https://orcid.org/0000-0003-1157-9030",
+            "roleName": "Design"
+        },
+        {
+            "id": "https://orcid.org/0000-0001-9064-0463",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "CNRS"
+            },
+            "email": "franck.michel@inria.fr",
+            "familyName": "Michel",
+            "givenName": "Franck"
+        },
+        {
+            "type": "Role",
+            "schema:author": "https://orcid.org/0000-0001-9064-0463",
+            "roleName": "Design"
+        },
+        {
+            "id": "https://orcid.org/0009-0005-8523-0941",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "CNRS"
+            },
+            "email": "benjamin.navet@univ-cotedazur.fr",
+            "familyName": "Navet",
+            "givenName": "Benjamin"
+        },
+        {
+            "type": "Role",
+            "schema:author": "https://orcid.org/0009-0005-8523-0941",
+            "roleName": "Design"
+        },
+        {
+            "id": "https://orcid.org/0000-0001-6711-6719",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "CNRS"
+            },
+            "email": "louis-felix.nothias@cnrs.fr",
+            "familyName": "Nothias",
+            "givenName": "Louis-Felix"
+        },
+        {
+            "type": "Role",
+            "schema:author": "https://orcid.org/0000-0001-6711-6719",
+            "roleName": "Design"
+        }
+    ],
+    "codeRepository": "https://github.com/Wimmics/t2s-eval",
+    "datePublished": "2026-05-06",
+    "description": "T2S-Eval provides a comprehensive evaluation ecosystem for Text-to-SPARQL systems, including the core t2s-metrics library, a metrics inventory, a challenge results dashboard, and a QCan family metric experimentation workspace.",
+    "identifier": "t2s-eval",
+    "keywords": [
+        "Text-to-SPARQL",
+        "Evaluation Metrics",
+        "Canonicalization"
+    ],
+    "name": "T2S-Eval",
+    "version": "1.0.0",
+    "issueTracker": "https://github.com/Wimmics/t2s-eval/issues"
+}

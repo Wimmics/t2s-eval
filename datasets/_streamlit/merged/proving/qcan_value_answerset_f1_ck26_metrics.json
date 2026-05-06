@@ -1,0 +1,65 @@
+[
+  {
+    "metric": "exact_match_spinach",
+    "pearson": 0.8241072698595011,
+    "pearson_ci_low": 0.7841939642431501,
+    "pearson_ci_high": 0.862181123127156,
+    "spearman": 0.8261187352874686,
+    "kendall_tau_b": 0.743483175117121,
+    "pairwise_accuracy": 0.7968317492079373
+  },
+  {
+    "metric": "qcan-rouge-4-strict",
+    "pearson": 0.5010124087786669,
+    "pearson_ci_low": 0.4260497046811999,
+    "pearson_ci_high": 0.5695156617914882,
+    "spearman": 0.4225672131617578,
+    "kendall_tau_b": 0.3146703812373843,
+    "pairwise_accuracy": 0.6795897948974488
+  },
+  {
+    "metric": "qcan-rouge-4-flex",
+    "pearson": 0.4911826456620007,
+    "pearson_ci_low": 0.41499950284757126,
+    "pearson_ci_high": 0.5622636365717452,
+    "spearman": 0.4073852554093484,
+    "kendall_tau_b": 0.3006839809943955,
+    "pairwise_accuracy": 0.6717775554443889
+  },
+  {
+    "metric": "qcan-bleu-strict",
+    "pearson": 0.47577586759763024,
+    "pearson_ci_low": 0.4004276191993554,
+    "pearson_ci_high": 0.5460509950907496,
+    "spearman": 0.3713971117231028,
+    "kendall_tau_b": 0.2715199728159998,
+    "pairwise_accuracy": 0.6550025012506253
+  },
+  {
+    "metric": "qcan-bleu-flex",
+    "pearson": 0.4708735769582586,
+    "pearson_ci_low": 0.39797149226605777,
+    "pearson_ci_high": 0.5392243874331708,
+    "spearman": 0.35320385683474603,
+    "kendall_tau_b": 0.25575449840109965,
+    "pairwise_accuracy": 0.6461480740370185
+  },
+  {
+    "metric": "rouge_4",
+    "pearson": 0.3945711595418777,
+    "pearson_ci_low": 0.31949960525153387,
+    "pearson_ci_high": 0.4616143530917359,
+    "spearman": 0.32383132874200027,
+    "kendall_tau_b": 0.24340083262358703,
+    "pairwise_accuracy": 0.6402284475571118
+  },
+  {
+    "metric": "bleu",
+    "pearson": 0.3372699590853013,
+    "pearson_ci_low": 0.2513822324272774,
+    "pearson_ci_high": 0.4162247685891849,
+    "spearman": 0.26993654393750366,
+    "kendall_tau_b": 0.20066563475590238,
+    "pairwise_accuracy": 0.6156244789061197
+  }
+]

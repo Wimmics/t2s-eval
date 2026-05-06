@@ -1,0 +1,18 @@
+{
+  "metrics": [
+    "answerset_f1",
+    "bleu",
+    "exact_match_spinach",
+    "qcan-bleu-flex",
+    "qcan-bleu-strict",
+    "qcan-rouge-4-flex",
+    "qcan-rouge-4-strict",
+    "rouge_4"
+  ],
+  "scale_to_ten": true,
+  "sample_size": 3894,
+  "alpha_nominal": 0.060099864345595,
+  "alpha_interval": 0.14705164509455093,
+  "alpha_ordinal": 0.14710452660406736,
+  "alpha_ratio": 0.11336910837727276
+}

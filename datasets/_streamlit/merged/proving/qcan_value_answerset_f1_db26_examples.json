@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "wins",
+    "query_id": "db26_IRIS_db26:38-es",
+    "delta": -0.953053807531547,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.046946192468453
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-A_db26:23-es",
+    "delta": -0.9311391173283597,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.06886088267164023
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-A_db26:23-en",
+    "delta": -0.9311391173283597,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.06886088267164023
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-A_db26:29-en",
+    "delta": -0.8719267282568592,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.12807327174314076
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_SPARQL-LLM_db26:13-en",
+    "delta": -0.8118360635786276,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.18816393642137244
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_IRIS_db26:19-en",
+    "delta": 0.8070625480078482,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.8371170098777919,
+    "bleu": 0.030054461869943767
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_IRIS_db26:39-en",
+    "delta": 0.7693677238407401,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.8003203203844999,
+    "bleu": 0.030952596543759713
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-A_db26:10-en",
+    "delta": 0.7403464110659662,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.2596535889340338
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_SPARQL-LLM_db26:6-en",
+    "delta": 0.7250022404677585,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.2749977595322415
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_SPARQL-LLM_db26:7-en",
+    "delta": 0.7250022404677585,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.2749977595322415
+  }
+]

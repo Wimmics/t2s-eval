@@ -1,0 +1,65 @@
+[
+  {
+    "metric": "exact_match_spinach",
+    "pearson": 0.739806538879629,
+    "pearson_ci_low": 0.7159234124165921,
+    "pearson_ci_high": 0.7626804456360636,
+    "spearman": 0.6918619148807251,
+    "kendall_tau_b": 0.6524163600061678,
+    "pairwise_accuracy": 0.7764926613599786
+  },
+  {
+    "metric": "qcan-rouge-4-strict",
+    "pearson": 0.6081831006846283,
+    "pearson_ci_low": 0.5835638134249265,
+    "pearson_ci_high": 0.6328099255785105,
+    "spearman": 0.5876380456569179,
+    "kendall_tau_b": 0.49877892259180173,
+    "pairwise_accuracy": 0.8224241487446845
+  },
+  {
+    "metric": "qcan-rouge-4-flex",
+    "pearson": 0.6009264455113366,
+    "pearson_ci_low": 0.5756768713446886,
+    "pearson_ci_high": 0.6253995169536868,
+    "spearman": 0.567562266531442,
+    "kendall_tau_b": 0.47488826769281095,
+    "pairwise_accuracy": 0.8144729197347899
+  },
+  {
+    "metric": "qcan-bleu-strict",
+    "pearson": 0.5690329883880465,
+    "pearson_ci_low": 0.5409498237020741,
+    "pearson_ci_high": 0.5965708410102009,
+    "spearman": 0.5606699867798074,
+    "kendall_tau_b": 0.47191832278385176,
+    "pairwise_accuracy": 0.8073116353588643
+  },
+  {
+    "metric": "qcan-bleu-flex",
+    "pearson": 0.5589243851485056,
+    "pearson_ci_low": 0.5311897322037369,
+    "pearson_ci_high": 0.5862207139790857,
+    "spearman": 0.4962412918650692,
+    "kendall_tau_b": 0.39679703526290405,
+    "pairwise_accuracy": 0.7762806113254914
+  },
+  {
+    "metric": "rouge_4",
+    "pearson": 0.4377718858566031,
+    "pearson_ci_low": 0.4065517646206114,
+    "pearson_ci_high": 0.4669322900919967,
+    "spearman": 0.45909507421049,
+    "kendall_tau_b": 0.37797868223710307,
+    "pairwise_accuracy": 0.7518337538086154
+  },
+  {
+    "metric": "bleu",
+    "pearson": 0.3444687549183145,
+    "pearson_ci_low": 0.30930562848298015,
+    "pearson_ci_high": 0.37636888719564143,
+    "spearman": 0.36292927172442496,
+    "kendall_tau_b": 0.28296834068447135,
+    "pairwise_accuracy": 0.6975009165532626
+  }
+]

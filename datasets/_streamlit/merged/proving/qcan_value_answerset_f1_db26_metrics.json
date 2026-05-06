@@ -1,0 +1,65 @@
+[
+  {
+    "metric": "exact_match_spinach",
+    "pearson": 0.8304324192286379,
+    "pearson_ci_low": 0.7974505211794434,
+    "pearson_ci_high": 0.8606928683591967,
+    "spearman": 0.8067176130137518,
+    "kendall_tau_b": 0.7406331684850835,
+    "pairwise_accuracy": 0.7840811054885954
+  },
+  {
+    "metric": "qcan-rouge-4-strict",
+    "pearson": 0.45881912644218315,
+    "pearson_ci_low": 0.39674058049195843,
+    "pearson_ci_high": 0.5171539001549827,
+    "spearman": 0.4371928386646175,
+    "kendall_tau_b": 0.3446334614215709,
+    "pairwise_accuracy": 0.7079097527382436
+  },
+  {
+    "metric": "qcan-rouge-4-flex",
+    "pearson": 0.4515271045930656,
+    "pearson_ci_low": 0.39141193526929335,
+    "pearson_ci_high": 0.5099062885968915,
+    "spearman": 0.4217737853429034,
+    "kendall_tau_b": 0.3287478990596328,
+    "pairwise_accuracy": 0.6998047535202385
+  },
+  {
+    "metric": "qcan-bleu-strict",
+    "pearson": 0.42016538418229854,
+    "pearson_ci_low": 0.3553248798545577,
+    "pearson_ci_high": 0.4843462962538436,
+    "spearman": 0.41045792021790056,
+    "kendall_tau_b": 0.3243912275498839,
+    "pairwise_accuracy": 0.695692973649293
+  },
+  {
+    "metric": "qcan-bleu-flex",
+    "pearson": 0.4067300908751065,
+    "pearson_ci_low": 0.3400314910862031,
+    "pearson_ci_high": 0.47171107047019767,
+    "spearman": 0.33845650107624836,
+    "kendall_tau_b": 0.2578473386976523,
+    "pairwise_accuracy": 0.6578318055001993
+  },
+  {
+    "metric": "rouge_4",
+    "pearson": 0.4010395946039209,
+    "pearson_ci_low": 0.3341016396694346,
+    "pearson_ci_high": 0.46646537879844546,
+    "spearman": 0.3390699180754386,
+    "kendall_tau_b": 0.26252298815361635,
+    "pairwise_accuracy": 0.6601853580275565
+  },
+  {
+    "metric": "bleu",
+    "pearson": 0.323111802692412,
+    "pearson_ci_low": 0.2544536651184979,
+    "pearson_ci_high": 0.38817932696164087,
+    "spearman": 0.24678309700776802,
+    "kendall_tau_b": 0.18233280386831963,
+    "pairwise_accuracy": 0.6118202319750166
+  }
+]

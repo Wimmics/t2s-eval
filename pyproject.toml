@@ -1,0 +1,63 @@
+[project]
+name = "t2s-eval"
+version = "0.0.1"
+description = "The evaluation framework for t2s-metrics."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bibtexparser>=1.4.4",
+    "numpy>=1.26",
+    "pandas>=3.0.0",
+    "krippendorff>=0.8.2",
+    "nbformat>=5.10.4",
+    "pyyaml>=6.0",
+    "streamlit>=1.36",
+    "t2s-metrics>=1.1.2",
+    "openpyxl>=3.1.5",
+    "matplotlib>=3.10.0",
+    "requests>=2.32.5",
+]
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v"
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 88
+fix = true
+indent-width = 4
+exclude = [
+    ".venv",
+    "__pycache__",
+    "*.pyc",
+    ".DS_Store",
+    ".vscode",
+    "*.egg-info",
+    "dist",
+    "build",
+    ".deprecated",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle
+    "F",    # Pyflakes
+    "UP",   # pyupgrade
+    "B",    # flake8-bugbear
+    "SIM",  # flake8-simplify
+    "I",    # isort
+    "D",    # pydocstyle
+]
+ignore = [
+    "E501",    # Line too long (handled by formatter)
+    "SIM103",  # Return negated condition directly (style preference)
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

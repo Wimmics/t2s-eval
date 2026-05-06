@@ -1,0 +1,72 @@
+{
+  "proxy_metric": "answerset_f1",
+  "scale_10": false,
+  "bootstrap_iters": 3000,
+  "seed": 7,
+  "top_k": 5,
+  "summary_metrics": [
+    {
+      "name": "exact_match_spinach",
+      "pearson": 0.8180551909181046,
+      "spearman": 0.7741790379286275,
+      "kendall_tau_b": 0.7216662092174196,
+      "pairwise_accuracy": 0.7767889368007143,
+      "pearson_ci_low": 0.7640781808105336,
+      "pearson_ci_high": 0.867105337499987
+    },
+    {
+      "name": "qcan-rouge-4-strict",
+      "pearson": 0.5971116847199808,
+      "spearman": 0.5815135310422004,
+      "kendall_tau_b": 0.4853301765369685,
+      "pairwise_accuracy": 0.8066219630340217,
+      "pearson_ci_low": 0.5272645268371204,
+      "pearson_ci_high": 0.6600812548452882
+    },
+    {
+      "name": "qcan-rouge-4-flex",
+      "pearson": 0.5863648149061023,
+      "spearman": 0.558130043259965,
+      "kendall_tau_b": 0.45747137276482475,
+      "pairwise_accuracy": 0.797114526147826,
+      "pearson_ci_low": 0.5152539303388742,
+      "pearson_ci_high": 0.6482393921809045
+    },
+    {
+      "name": "qcan-bleu-strict",
+      "pearson": 0.5608012353624566,
+      "spearman": 0.5525521647794477,
+      "kendall_tau_b": 0.4610923743761166,
+      "pairwise_accuracy": 0.7939897042341811,
+      "pearson_ci_low": 0.48111722148642533,
+      "pearson_ci_high": 0.6327230675780846
+    },
+    {
+      "name": "qcan-bleu-flex",
+      "pearson": 0.5414508696661998,
+      "spearman": 0.47331737822937514,
+      "kendall_tau_b": 0.3786534294027555,
+      "pairwise_accuracy": 0.7536994472199533,
+      "pearson_ci_low": 0.45552921772972244,
+      "pearson_ci_high": 0.6160325592221368
+    },
+    {
+      "name": "rouge_4",
+      "pearson": 0.4011657593376968,
+      "spearman": 0.3925292424827293,
+      "kendall_tau_b": 0.317272850188273,
+      "pairwise_accuracy": 0.7069600896605437,
+      "pearson_ci_low": 0.3133074335984873,
+      "pearson_ci_high": 0.4835145822494525
+    },
+    {
+      "name": "bleu",
+      "pearson": 0.26062754761315116,
+      "spearman": 0.2806209960128575,
+      "kendall_tau_b": 0.22122081017290557,
+      "pairwise_accuracy": 0.6483388104781262,
+      "pearson_ci_low": 0.16429258069480474,
+      "pearson_ci_high": 0.3538334829488965
+    }
+  ]
+}
