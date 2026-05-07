@@ -5,6 +5,11 @@
     <em>
         This repository contains evaluation tooling, datasets, and analysis scripts used for the "QCan Family Metrics" evaluation. 
     </em>
+    
+</p>
+
+<p align="center">
+    <a href="https://doi.org/10.5281/zenodo.20069557"><img src="https://img.shields.io/badge/DOI-10.5281/zenodo.20069557-blue" alt="DOI"></a>
 </p>
 
 > [!IMPORTANT]

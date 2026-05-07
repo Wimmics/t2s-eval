@@ -5,14 +5,10 @@ import loguru
 loguru.logger.info("Starting problematic query identification...")
 
 result_files = [
-    "./datasets/ck25/results/ck25-20260420-144539.json",
-    "./datasets/ck25/results/ck25-20260421-163920.json",
-    "./datasets/ck26/results/ck26-20260420-145252.json",
-    "./datasets/ck26/results/ck26-20260422-141434.json",
-    "./datasets/db25/results/db25-20260420-155155.json",
-    "./datasets/db25/results/db25-20260422-141518.json",
-    "./datasets/db26/results/db26-20260420-151614.json",
-    "./datasets/db26/results/db26-20260422-141455.json",
+    "./datasets/ck25/results/ck25-20260429-153052.json",
+    "./datasets/ck26/results/ck26-20260504-110702.json",
+    "./datasets/db25/results/db25-20260429-164041.json",
+    "./datasets/db26/results/db26-20260429-174352.json",
 ]
 
 query_results = {}
@@ -46,5 +42,5 @@ for query_key, metrics in query_results.items():
     sorted_items = sorted(metrics.items(), key=lambda item: item[1])
     sorted_query_results[query_key] = dict(sorted_items)
 
-with open("./results/problematic_queries_all.json", "w") as f:
+with open("./problematic_queries_all.json", "w") as f:
     json.dump(sorted_query_results, f, indent=4)
