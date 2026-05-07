@@ -113,9 +113,15 @@ uv run src/qcan_eval/generate_markdown_experiments.py
 
 ## License
 
-### t2s-eval
+### T2S-Eval 
 
-t2s-eval scripts under `src` are provided under the terms of the [Creative Commons Attribution 4.0 International license](https://github.com/Wimmics/t2s-eval/blob/main/LICENSES/CC-BY-4.0.txt) (CC-BY-4.0).
+#### Software
+
+t2s-eval scripts under `src` are provided under the terms of the [GNU Affero General Public License 3.0](https://github.com/Wimmics/t2s-eval/blob/main/LICENSES/AGPL-3.0.txt) (AGPL-3.0).
+
+#### Datasets
+
+t2s-eval datasets under `datasets/{dataset}/results`, `datasets/_streamlit` and `results_analysis` are provided under the terms of the [Creative Commons Attribution-ShareAlike 4.0 International](https://github.com/Wimmics/t2s-eval/blob/main/LICENSES/CC-BY-SA-4.0.txt) (CC-BY-SA-4.0).
 
 
 ### Redistribution of third-party software and data
