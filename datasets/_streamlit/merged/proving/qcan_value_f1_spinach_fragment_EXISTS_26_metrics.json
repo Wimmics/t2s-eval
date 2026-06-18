@@ -1,0 +1,65 @@
+[
+  {
+    "metric": "exact_match_spinach",
+    "pearson": 0.5898027541694444,
+    "pearson_ci_low": 0.32927443596305117,
+    "pearson_ci_high": 0.7803249448516566,
+    "spearman": 0.6730853501798347,
+    "kendall_tau_b": 0.6030226891555271,
+    "pairwise_accuracy": 0.6818181818181818
+  },
+  {
+    "metric": "bleu",
+    "pearson": 0.2309915298446853,
+    "pearson_ci_low": -0.21947552305750512,
+    "pearson_ci_high": 0.570907407201636,
+    "spearman": 0.1630696369847876,
+    "kendall_tau_b": 0.1460954260673022,
+    "pairwise_accuracy": 0.5818181818181818
+  },
+  {
+    "metric": "qcan-bleu-strict",
+    "pearson": 0.14791530020705967,
+    "pearson_ci_low": -0.4486559835361307,
+    "pearson_ci_high": 0.4837948176930001,
+    "spearman": 0.0013600968491141094,
+    "kendall_tau_b": 0.008175874252096607,
+    "pairwise_accuracy": 0.5045454545454545
+  },
+  {
+    "metric": "qcan-bleu-flex",
+    "pearson": 0.14791530020705967,
+    "pearson_ci_low": -0.44092435210211023,
+    "pearson_ci_high": 0.4860269599530201,
+    "spearman": 0.0013600968491141094,
+    "kendall_tau_b": 0.008175874252096607,
+    "pairwise_accuracy": 0.5045454545454545
+  },
+  {
+    "metric": "rouge_4",
+    "pearson": -0.02324326718256473,
+    "pearson_ci_low": -0.5060756875133154,
+    "pearson_ci_high": 0.38613429565510343,
+    "spearman": -0.1417799899339959,
+    "kendall_tau_b": -0.1217461883894185,
+    "pairwise_accuracy": 0.4318181818181818
+  },
+  {
+    "metric": "qcan-rouge-4-strict",
+    "pearson": -0.06520298196954366,
+    "pearson_ci_low": -0.5910315383176324,
+    "pearson_ci_high": 0.3483612049509694,
+    "spearman": -0.14235680354061012,
+    "kendall_tau_b": -0.1144622395293525,
+    "pairwise_accuracy": 0.43636363636363634
+  },
+  {
+    "metric": "qcan-rouge-4-flex",
+    "pearson": -0.06520298196954366,
+    "pearson_ci_low": -0.5879654304947216,
+    "pearson_ci_high": 0.34686561003551664,
+    "spearman": -0.14235680354061012,
+    "kendall_tau_b": -0.1144622395293525,
+    "pairwise_accuracy": 0.43636363636363634
+  }
+]

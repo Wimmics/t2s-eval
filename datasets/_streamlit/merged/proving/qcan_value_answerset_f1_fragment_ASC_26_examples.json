@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "wins",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-C_db26:12-en",
+    "delta": -0.24688498672025874,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.0,
+    "bleu": 0.24688498672025874
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-B_db26:12-en",
+    "delta": -0.16895460723638556,
+    "proxy": 0.25806451612903225,
+    "qcan-bleu-strict": 0.23067493956700402,
+    "bleu": 0.06172033233061847
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-C_db26:12-es",
+    "delta": -0.15419283939507827,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.0,
+    "bleu": 0.15419283939507827
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-A_db26:12-en",
+    "delta": -0.12631925828166835,
+    "proxy": 0.5555555555555556,
+    "qcan-bleu-strict": 0.2810335395782485,
+    "bleu": 0.15471428129658016
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_LIBER-AI-CLAUDE_db26:12-en",
+    "delta": -0.1190593339280917,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.40735788540253076,
+    "bleu": 0.5264172193306225
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_LIBER-AI-QWEN_db26:12-en",
+    "delta": 0.15432254319862226,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.6643548861507491,
+    "bleu": 0.5100323429521268
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_LIBER-AI-QWEN_db26:12-es",
+    "delta": 0.10706281316262872,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.5933067045090704,
+    "bleu": 0.4862438913464417
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-A_db26:12-es",
+    "delta": 0.04072243061824356,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.14809362972567602,
+    "bleu": 0.10737119910743247
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_ADFR_db26:12-en",
+    "delta": 0.022043427652796606,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.04085926480081224,
+    "bleu": 0.018815837148015636
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-B_db26:12-es",
+    "delta": 0.0,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.0,
+    "bleu": 0.0
+  }
+]

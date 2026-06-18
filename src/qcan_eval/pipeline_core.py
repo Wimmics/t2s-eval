@@ -105,8 +105,35 @@ def save_json(path: Path | str, data: Any) -> Path:
     path = Path(path)
     ensure_directory(path.parent)
     with open(path, "w", encoding="utf-8") as handle:
-        json.dump(data, handle, indent=2, ensure_ascii=False)
+        json.dump(
+            _json_safe_value(data),
+            handle,
+            indent=2,
+            ensure_ascii=False,
+            allow_nan=False,
+        )
     return path
+
+
+def _json_safe_value(value: Any) -> Any:
+    if isinstance(value, dict):
+        return {str(key): _json_safe_value(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [_json_safe_value(item) for item in value]
+    if isinstance(value, tuple):
+        return [_json_safe_value(item) for item in value]
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, int):
+        return value
+    if isinstance(value, np.integer):
+        return int(value)
+    if isinstance(value, (float, np.floating)):
+        numeric_value = float(value)
+        return numeric_value if math.isfinite(numeric_value) else None
+    if isinstance(value, Path):
+        return str(value)
+    return value
 
 
 def save_dataframe(path: Path | str, frame: pd.DataFrame) -> Path:
@@ -129,8 +156,13 @@ def merge_result_files(result_files: list[Path]) -> dict[str, dict[str, float]]:
                 score = query_result.get("score")
                 if query_id is None or metric is None:
                     continue
+                if not isinstance(score, (int, float, np.integer, np.floating)):
+                    continue
+                score_value = float(score)
+                if not math.isfinite(score_value):
+                    continue
                 key = f"{dataset}_{system_name}_{query_id}"
-                query_results.setdefault(key, {})[metric] = score
+                query_results.setdefault(key, {})[metric] = score_value
 
     return {
         query_key: dict(sorted(metric_scores.items(), key=lambda item: item[0]))
@@ -182,7 +214,8 @@ def normalize_merged_payload(payload: Any) -> dict[str, dict[str, float]]:
             str(query_key): {
                 str(metric): float(score)
                 for metric, score in metric_scores.items()
-                if isinstance(score, (int, float))
+                if isinstance(score, (int, float, np.integer, np.floating))
+                and math.isfinite(float(score))
             }
             for query_key, metric_scores in payload.items()
             if isinstance(metric_scores, dict)
@@ -202,7 +235,8 @@ def normalize_merged_payload(payload: Any) -> dict[str, dict[str, float]]:
             result[query_key] = {
                 str(metric): float(score)
                 for metric, score in row["metrics"].items()
-                if isinstance(score, (int, float))
+                if isinstance(score, (int, float, np.integer, np.floating))
+                and math.isfinite(float(score))
             }
             continue
 
@@ -212,7 +246,9 @@ def normalize_merged_payload(payload: Any) -> dict[str, dict[str, float]]:
             result[query_key] = {
                 str(metric): float(score)
                 for metric, score in row.items()
-                if metric != "query_key" and isinstance(score, (int, float))
+                if metric != "query_key"
+                and isinstance(score, (int, float, np.integer, np.floating))
+                and math.isfinite(float(score))
             }
             continue
 
@@ -223,7 +259,8 @@ def normalize_merged_payload(payload: Any) -> dict[str, dict[str, float]]:
                 result[str(query_key)] = {
                     str(metric): float(score)
                     for metric, score in metric_scores.items()
-                    if isinstance(score, (int, float))
+                    if isinstance(score, (int, float, np.integer, np.floating))
+                    and math.isfinite(float(score))
                 }
 
     if not result:

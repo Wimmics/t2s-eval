@@ -1,0 +1,65 @@
+[
+  {
+    "metric": "exact_match_spinach",
+    "pearson": 0.8137679632670375,
+    "pearson_ci_low": 0.7863941651514186,
+    "pearson_ci_high": 0.840162597406166,
+    "spearman": 0.804457569557619,
+    "kendall_tau_b": 0.7282694685458138,
+    "pairwise_accuracy": 0.7809684301585296
+  },
+  {
+    "metric": "qcan-rouge-4-strict",
+    "pearson": 0.5033849003000165,
+    "pearson_ci_low": 0.4566869395248661,
+    "pearson_ci_high": 0.5504018874892109,
+    "spearman": 0.462852873214717,
+    "kendall_tau_b": 0.35791585386662117,
+    "pairwise_accuracy": 0.7083167287112545
+  },
+  {
+    "metric": "qcan-rouge-4-flex",
+    "pearson": 0.4951552369049088,
+    "pearson_ci_low": 0.4450221622504156,
+    "pearson_ci_high": 0.5416330752497495,
+    "spearman": 0.44734699394159,
+    "kendall_tau_b": 0.34294332807353706,
+    "pairwise_accuracy": 0.7004315581777358
+  },
+  {
+    "metric": "qcan-bleu-strict",
+    "pearson": 0.4598786103398334,
+    "pearson_ci_low": 0.40935284146559375,
+    "pearson_ci_high": 0.5076832891427663,
+    "spearman": 0.4103061725890424,
+    "kendall_tau_b": 0.31507032869106844,
+    "pairwise_accuracy": 0.6834146554824412
+  },
+  {
+    "metric": "qcan-bleu-flex",
+    "pearson": 0.44862110390061327,
+    "pearson_ci_low": 0.39581650560887766,
+    "pearson_ci_high": 0.4985737321841592,
+    "spearman": 0.3550303317164018,
+    "kendall_tau_b": 0.2656374564999812,
+    "pairwise_accuracy": 0.6558870270112652
+  },
+  {
+    "metric": "rouge_4",
+    "pearson": 0.3928443412944978,
+    "pearson_ci_low": 0.3366867835492037,
+    "pearson_ci_high": 0.4435544739277982,
+    "spearman": 0.31666821669335776,
+    "kendall_tau_b": 0.24043997779795592,
+    "pairwise_accuracy": 0.6411664220522341
+  },
+  {
+    "metric": "bleu",
+    "pearson": 0.2994206449134913,
+    "pearson_ci_low": 0.24159046915797747,
+    "pearson_ci_high": 0.3571737285831349,
+    "spearman": 0.23566624350703932,
+    "kendall_tau_b": 0.1741824272437568,
+    "pairwise_accuracy": 0.602557030801979
+  }
+]

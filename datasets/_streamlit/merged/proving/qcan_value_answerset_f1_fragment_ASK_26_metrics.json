@@ -1,0 +1,65 @@
+[
+  {
+    "metric": "exact_match_spinach",
+    "pearson": 0.9999999999999999,
+    "pearson_ci_low": 0.9999999999999999,
+    "pearson_ci_high": 1.0,
+    "spearman": 1.0,
+    "kendall_tau_b": 1.0,
+    "pairwise_accuracy": 1.0
+  },
+  {
+    "metric": "bleu",
+    "pearson": 0.6338264278562354,
+    "pearson_ci_low": 0.5060696326383206,
+    "pearson_ci_high": 0.7440101545273068,
+    "spearman": 0.6030260414193572,
+    "kendall_tau_b": 0.4992969827779169,
+    "pairwise_accuracy": 0.8802474591250552
+  },
+  {
+    "metric": "rouge_4",
+    "pearson": 0.4443016609854459,
+    "pearson_ci_low": 0.25751192173732157,
+    "pearson_ci_high": 0.6108285647469653,
+    "spearman": 0.4439382137277721,
+    "kendall_tau_b": 0.36737251349141864,
+    "pairwise_accuracy": 0.7799381352187362
+  },
+  {
+    "metric": "qcan-rouge-4-strict",
+    "pearson": 0.37242475623315735,
+    "pearson_ci_low": 0.2238811691975595,
+    "pearson_ci_high": 0.5134229452940826,
+    "spearman": 0.33734098596882756,
+    "kendall_tau_b": 0.2835282669767587,
+    "pairwise_accuracy": 0.7121078214759169
+  },
+  {
+    "metric": "qcan-rouge-4-flex",
+    "pearson": 0.36851577074683856,
+    "pearson_ci_low": 0.2191755861988557,
+    "pearson_ci_high": 0.5110798261945793,
+    "spearman": 0.33526137359320124,
+    "kendall_tau_b": 0.27965494200893304,
+    "pairwise_accuracy": 0.7112240388864339
+  },
+  {
+    "metric": "qcan-bleu-strict",
+    "pearson": 0.3342830545158128,
+    "pearson_ci_low": 0.16496221887292092,
+    "pearson_ci_high": 0.5082578705180333,
+    "spearman": 0.3726834351740064,
+    "kendall_tau_b": 0.3151714945545559,
+    "pairwise_accuracy": 0.7339814405656209
+  },
+  {
+    "metric": "qcan-bleu-flex",
+    "pearson": 0.3290500720764454,
+    "pearson_ci_low": 0.1542105901874386,
+    "pearson_ci_high": 0.5099648831506444,
+    "spearman": 0.3654988420496488,
+    "kendall_tau_b": 0.3061843636778946,
+    "pairwise_accuracy": 0.7300044189129474
+  }
+]

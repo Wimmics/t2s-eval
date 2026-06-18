@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "wins",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-C_db26:5-es",
+    "delta": -0.3503097518517077,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.0,
+    "bleu": 0.3503097518517077
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-C_db26:2-en",
+    "delta": -0.32970516467141975,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.0,
+    "bleu": 0.32970516467141975
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_LIBER-AI-CLAUDE_db26:2-es",
+    "delta": -0.3124248575789625,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.0,
+    "bleu": 0.3124248575789625
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-C_db26:2-es",
+    "delta": -0.3095805374887531,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.0,
+    "bleu": 0.3095805374887531
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-C_db26:5-en",
+    "delta": -0.30572863555731983,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.0,
+    "bleu": 0.30572863555731983
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_ADFR_db26:5-es",
+    "delta": 0.2003980253689035,
+    "proxy": 0.7499999999999999,
+    "qcan-bleu-strict": 0.1690933489682979,
+    "bleu": 0.36949137433720136
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-A_db26:5-en",
+    "delta": 0.18670195256088468,
+    "proxy": 0.6666666666666666,
+    "qcan-bleu-strict": 0.2773167977561413,
+    "bleu": 0.464018750317026
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-A_db26:5-es",
+    "delta": 0.1763624552285788,
+    "proxy": 0.6666666666666666,
+    "qcan-bleu-strict": 0.2228961931726525,
+    "bleu": 0.3992586484012313
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-B_db26:5-es",
+    "delta": 0.10560370825143847,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.2627406813978721,
+    "bleu": 0.15713697314643363
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_LIBER-AI-QWEN_db26:2-en",
+    "delta": 0.06914247598672751,
+    "proxy": 0.6666666666666666,
+    "qcan-bleu-strict": 0.17224209006019778,
+    "bleu": 0.24138456604692526
+  }
+]

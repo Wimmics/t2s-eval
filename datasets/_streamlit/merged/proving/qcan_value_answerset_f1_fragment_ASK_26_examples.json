@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "wins",
+    "query_id": "ck26_SPARQL-LLM_ck26:16-en",
+    "delta": -0.8001596807660086,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.19984031923399137
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_SPARQL-LLM_ck26:33-en",
+    "delta": -0.6646328118883967,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.33536718811160326
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_LIBER-AI-CLAUDE_db26:10-es",
+    "delta": -0.29289321881345254,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.7071067811865475
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_LIBER-AI-CLAUDE_db26:8-es",
+    "delta": -0.29289321881345254,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.7071067811865475
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_LIBER-AI-CLAUDE_db26:10-en",
+    "delta": -0.29289321881345254,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.7071067811865475
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-A_db26:10-en",
+    "delta": 0.7403464110659662,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.2596535889340338
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_SPARQL-LLM_db26:9-en",
+    "delta": 0.7250022404677585,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.2749977595322415
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_SPARQL-LLM_db26:7-es",
+    "delta": 0.7250022404677585,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.2749977595322415
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_SPARQL-LLM_db26:7-en",
+    "delta": 0.7250022404677585,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.2749977595322415
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_SPARQL-LLM_db26:6-en",
+    "delta": 0.7250022404677585,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.2749977595322415
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "better": "qcan-bleu-strict",
+    "baseline": "bleu",
+    "delta_r": 0.12791798017415756,
+    "p_value": 0.013666666666666667
+  },
+  {
+    "better": "qcan-bleu-flex",
+    "baseline": "bleu",
+    "delta_r": 0.11666546508589154,
+    "p_value": 0.023666666666666666
+  },
+  {
+    "better": "qcan-bleu-strict",
+    "baseline": "answerset_f1",
+    "delta_r": -0.4394200937513951,
+    "p_value": 1.0
+  },
+  {
+    "better": "qcan-bleu-flex",
+    "baseline": "answerset_f1",
+    "delta_r": -0.45067260883966115,
+    "p_value": 1.0
+  }
+]

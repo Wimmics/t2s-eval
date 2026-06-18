@@ -1,0 +1,72 @@
+{
+  "proxy_metric": "answerset_f1",
+  "scale_10": false,
+  "bootstrap_iters": 3000,
+  "seed": 7,
+  "top_k": 5,
+  "summary_metrics": [
+    {
+      "name": "exact_match_spinach",
+      "pearson": 0.8267081439621329,
+      "spearman": 0.7772843228128522,
+      "kendall_tau_b": 0.7164587670774768,
+      "pairwise_accuracy": 0.7667349188848638,
+      "pearson_ci_low": 0.7657254097944446,
+      "pearson_ci_high": 0.878465172018789
+    },
+    {
+      "name": "qcan-rouge-4-strict",
+      "pearson": 0.3915841463048567,
+      "spearman": 0.3162548640418197,
+      "kendall_tau_b": 0.25497812616023685,
+      "pairwise_accuracy": 0.6606945975744212,
+      "pearson_ci_low": 0.2322925544221,
+      "pearson_ci_high": 0.5211698596277049
+    },
+    {
+      "name": "qcan-rouge-4-flex",
+      "pearson": 0.3772440902877904,
+      "spearman": 0.28968541919862084,
+      "kendall_tau_b": 0.230866223429116,
+      "pairwise_accuracy": 0.6465978894314065,
+      "pearson_ci_low": 0.22626203453014887,
+      "pearson_ci_high": 0.5039388147630907
+    },
+    {
+      "name": "qcan-bleu-strict",
+      "pearson": 0.3742643913215016,
+      "spearman": 0.3214232890957553,
+      "kendall_tau_b": 0.25535220182778107,
+      "pairwise_accuracy": 0.6609702315325248,
+      "pearson_ci_low": 0.23020031786988948,
+      "pearson_ci_high": 0.4987354768338134
+    },
+    {
+      "name": "qcan-bleu-flex",
+      "pearson": 0.3472489794117886,
+      "spearman": 0.27038871067044395,
+      "kendall_tau_b": 0.21268426257622403,
+      "pairwise_accuracy": 0.6356906599464482,
+      "pearson_ci_low": 0.19206733800945214,
+      "pearson_ci_high": 0.4737577122426722
+    },
+    {
+      "name": "rouge_4",
+      "pearson": 0.21348356887709255,
+      "spearman": 0.13150699091676787,
+      "kendall_tau_b": 0.10049976473370464,
+      "pairwise_accuracy": 0.5640652071192314,
+      "pearson_ci_low": 0.0409417331266154,
+      "pearson_ci_high": 0.3683953760258486
+    },
+    {
+      "name": "bleu",
+      "pearson": 0.20419985223300874,
+      "spearman": 0.1702741240552168,
+      "kendall_tau_b": 0.13018652558201868,
+      "pairwise_accuracy": 0.5830839502283824,
+      "pearson_ci_low": 0.05156717095288873,
+      "pearson_ci_high": 0.3512552188089343
+    }
+  ]
+}

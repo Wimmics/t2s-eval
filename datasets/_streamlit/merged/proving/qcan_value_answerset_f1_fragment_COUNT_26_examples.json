@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "wins",
+    "query_id": "db26_IRIS_db26:17-en",
+    "delta": -0.8086550712743787,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.19134492872562128
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-C_db26:32-es",
+    "delta": -0.6891557807535084,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.0,
+    "bleu": 0.6891557807535084
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_INFAI-ETI-AND-FRIENDS-B_ck26:50-en",
+    "delta": -0.6060502426958307,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 0.7365589940842712,
+    "bleu": 0.13050875138844037
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_SPARQL-LLM_db26:50-es",
+    "delta": -0.5244839217731516,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.4755160782268483
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_SPARQL-LLM_db26:50-en",
+    "delta": -0.5244839217731516,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.4755160782268483
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-A_db26:50-es",
+    "delta": 0.5957799984160214,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.7590994812356263,
+    "bleu": 0.16331948281960493
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_IRIS_db26:17-es",
+    "delta": 0.594356121945087,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.7565293041233583,
+    "bleu": 0.16217318217827123
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_LIBER-AI-CLAUDE_ck26:9-en",
+    "delta": 0.45880341245953904,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.5786592160764967,
+    "bleu": 0.1198558036169577
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-A_db26:50-en",
+    "delta": 0.4254495238632786,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.5360330312711556,
+    "bleu": 0.11058350740787706
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_LIBER-AI-CLAUDE_db26:48-en",
+    "delta": 0.40297197492634673,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.4983116255128665,
+    "bleu": 0.0953396505865198
+  }
+]

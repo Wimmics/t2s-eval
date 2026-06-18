@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "wins",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-C_db26:3-en",
+    "delta": -0.5231703598678076,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.0,
+    "bleu": 0.5231703598678076
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-C_db26:4-en",
+    "delta": -0.43191786378048935,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.0,
+    "bleu": 0.43191786378048935
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-C_db26:3-es",
+    "delta": -0.35246360857775483,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.0,
+    "bleu": 0.35246360857775483
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-C_db26:2-en",
+    "delta": -0.32970516467141975,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.0,
+    "bleu": 0.32970516467141975
+  },
+  {
+    "kind": "wins",
+    "query_id": "db26_LIBER-AI-CLAUDE_db26:2-es",
+    "delta": -0.3124248575789625,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.0,
+    "bleu": 0.3124248575789625
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-A_db26:4-en",
+    "delta": 0.27690749500417483,
+    "proxy": 0.6,
+    "qcan-bleu-strict": 0.20911587494844336,
+    "bleu": 0.4860233699526182
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_INFAI-ETI-AND-FRIENDS-A_db26:3-en",
+    "delta": 0.23717366192335892,
+    "proxy": 0.6666666666666666,
+    "qcan-bleu-strict": 0.37102492544788307,
+    "bleu": 0.608198587371242
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_LIBER-AI-QWEN_db26:1-en",
+    "delta": 0.19866545285976034,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.25963670755916085,
+    "bleu": 0.0609712546994005
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_SPARQL-LLM_db26:1-es",
+    "delta": 0.17124510125065642,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.3774155035532907,
+    "bleu": 0.20617040230263425
+  },
+  {
+    "kind": "fails",
+    "query_id": "db26_IRIS_db26:1-en",
+    "delta": 0.168820196565664,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.33709015979426626,
+    "bleu": 0.16826996322860227
+  }
+]

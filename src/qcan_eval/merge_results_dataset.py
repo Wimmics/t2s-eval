@@ -1,6 +1,8 @@
 import json
+from pathlib import Path
 
 import loguru
+from pipeline_core import save_json
 
 loguru.logger.info("Starting problematic query identification...")
 
@@ -42,5 +44,4 @@ for query_key, metrics in query_results.items():
     sorted_items = sorted(metrics.items(), key=lambda item: item[1])
     sorted_query_results[query_key] = dict(sorted_items)
 
-with open("./problematic_queries_all.json", "w") as f:
-    json.dump(sorted_query_results, f, indent=4)
+save_json(Path("./problematic_queries_all.json"), sorted_query_results)

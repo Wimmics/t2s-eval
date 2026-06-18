@@ -1,0 +1,5 @@
+better,baseline,delta_r,p_value
+qcan-bleu-strict,bleu,0.12791798017415756,0.013666666666666667
+qcan-bleu-flex,bleu,0.11666546508589154,0.023666666666666666
+qcan-bleu-strict,answerset_f1,-0.4394200937513951,1.0
+qcan-bleu-flex,answerset_f1,-0.45067260883966115,1.0

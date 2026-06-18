@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "wins",
+    "query_id": "ck26_INFAI-ETI-AND-FRIENDS-C_ck26:41-en",
+    "delta": -0.19024203148872926,
+    "proxy": 0.48000000000000004,
+    "qcan-bleu-strict": 0.24281801964740535,
+    "bleu": 0.05257598815867606
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_LIBER-AI-CLAUDE_ck26:44-en",
+    "delta": -0.14785478596620283,
+    "proxy": 0.9014084507042254,
+    "qcan-bleu-strict": 0.35644982820898213,
+    "bleu": 0.2085950422427794
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_INFAI-ETI-AND-FRIENDS-B_ck26:42-en",
+    "delta": -0.13381286501236922,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.08339862466541856,
+    "bleu": 0.21721148967778778
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_INFAI-ETI-AND-FRIENDS-C_ck26:42-en",
+    "delta": -0.10731992159573941,
+    "proxy": 0.09090909090909091,
+    "qcan-bleu-strict": 0.10124290703237407,
+    "bleu": 0.20856282862811348
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_IRIS_ck26:42-en",
+    "delta": -0.07290480480093117,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.058476650027329664,
+    "bleu": 0.13138145482826083
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_SPARQL-LLM_ck26:44-en",
+    "delta": 0.277483516452267,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 0.45976675055767213,
+    "bleu": 0.7372502670099391
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_SPARQL-LLM_ck26:42-en",
+    "delta": 0.24300509840277074,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 0.4137133886501402,
+    "bleu": 0.6567184870529109
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_INFAI-ETI-AND-FRIENDS-C_ck26:44-en",
+    "delta": 0.15324272102383352,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 0.1094478057181661,
+    "bleu": 0.2626905267419996
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_SPARQL-LLM_ck26:41-en",
+    "delta": 0.10623701801927504,
+    "proxy": 0.7000000000000001,
+    "qcan-bleu-strict": 0.4833356050512541,
+    "bleu": 0.5895726230705292
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_LIBER-AI-QWEN_ck26:41-en",
+    "delta": 0.08433374670944378,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.18279992995889227,
+    "bleu": 0.09846618324944849
+  }
+]

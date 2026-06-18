@@ -1,0 +1,65 @@
+[
+  {
+    "metric": "exact_match_spinach",
+    "pearson": 0.8213711619106216,
+    "pearson_ci_low": 0.7838397218015499,
+    "pearson_ci_high": 0.856698776429331,
+    "spearman": 0.8086410288275309,
+    "kendall_tau_b": 0.7382551716886723,
+    "pairwise_accuracy": 0.7824732097022588
+  },
+  {
+    "metric": "qcan-rouge-4-strict",
+    "pearson": 0.4873347033392168,
+    "pearson_ci_low": 0.4218930255330008,
+    "pearson_ci_high": 0.5495954422822021,
+    "spearman": 0.4705636399451798,
+    "kendall_tau_b": 0.36720894490629374,
+    "pairwise_accuracy": 0.7171417800308009
+  },
+  {
+    "metric": "qcan-rouge-4-flex",
+    "pearson": 0.4797829723153866,
+    "pearson_ci_low": 0.4104358183236148,
+    "pearson_ci_high": 0.5441832211041754,
+    "spearman": 0.4554133815173137,
+    "kendall_tau_b": 0.3517350429311116,
+    "pairwise_accuracy": 0.7092811537474333
+  },
+  {
+    "metric": "qcan-bleu-strict",
+    "pearson": 0.4372035910214261,
+    "pearson_ci_low": 0.366789340705043,
+    "pearson_ci_high": 0.5025929577316643,
+    "spearman": 0.42626770633501176,
+    "kendall_tau_b": 0.3337294448806644,
+    "pairwise_accuracy": 0.6973618775667351
+  },
+  {
+    "metric": "qcan-bleu-flex",
+    "pearson": 0.42484483239576376,
+    "pearson_ci_low": 0.35067503931902894,
+    "pearson_ci_high": 0.4936162781668315,
+    "spearman": 0.3514514471102089,
+    "kendall_tau_b": 0.2634638677120647,
+    "pairwise_accuracy": 0.6578542094455853
+  },
+  {
+    "metric": "rouge_4",
+    "pearson": 0.408528262944439,
+    "pearson_ci_low": 0.3351806655729255,
+    "pearson_ci_high": 0.4759462402385831,
+    "spearman": 0.3511653977465414,
+    "kendall_tau_b": 0.26989106451258493,
+    "pairwise_accuracy": 0.6610987230492813
+  },
+  {
+    "metric": "bleu",
+    "pearson": 0.3222401126252001,
+    "pearson_ci_low": 0.2411208819725887,
+    "pearson_ci_high": 0.39556896347972725,
+    "spearman": 0.25084133959092997,
+    "kendall_tau_b": 0.182129418647182,
+    "pairwise_accuracy": 0.6093389052874744
+  }
+]

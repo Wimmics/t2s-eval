@@ -15,6 +15,7 @@ METRICS = [
     "rouge_4",
     "qcan-rouge-4-strict",
     "qcan-rouge-4-flex",
+    "f1_spinach",
 ]
 
 
@@ -284,6 +285,16 @@ def main() -> None:
 
     if args.proxy_metric != "answerset_f1":
         comparisons.append(("qcan-rouge-4-flex", "answerset_f1"))
+    elif args.proxy_metric != "rouge_4":
+        comparisons.append(("qcan-rouge-4-flex", "rouge_4"))
+
+    if args.proxy_metric != "f1_spinach":
+        comparisons.append(("qcan-bleu-flex", "f1_spinach"))
+    elif args.proxy_metric != "bleu":
+        comparisons.append(("qcan-bleu-flex", "bleu"))
+
+    if args.proxy_metric != "f1_spinach":
+        comparisons.append(("qcan-rouge-4-flex", "f1_spinach"))
     elif args.proxy_metric != "rouge_4":
         comparisons.append(("qcan-rouge-4-flex", "rouge_4"))
 

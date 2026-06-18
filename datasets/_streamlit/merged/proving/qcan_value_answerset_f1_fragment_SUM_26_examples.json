@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "wins",
+    "query_id": "ck26_SPARQL-LLM_ck26:37-en",
+    "delta": -0.3027363357999867,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.6972636642000133
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_INFAI-ETI-AND-FRIENDS-B_ck26:42-en",
+    "delta": -0.13381286501236922,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.08339862466541856,
+    "bleu": 0.21721148967778778
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_IRIS_ck26:37-en",
+    "delta": -0.10772186506776132,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.31518748747255526,
+    "bleu": 0.4229093525403166
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_INFAI-ETI-AND-FRIENDS-C_ck26:42-en",
+    "delta": -0.10731992159573941,
+    "proxy": 0.09090909090909091,
+    "qcan-bleu-strict": 0.10124290703237407,
+    "bleu": 0.20856282862811348
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_INFAI-ETI-AND-FRIENDS-B_ck26:37-en",
+    "delta": -0.0773745227965581,
+    "proxy": 0.8444444444444443,
+    "qcan-bleu-strict": 0.3401115743021018,
+    "bleu": 0.2627370515055437
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_SPARQL-LLM_ck26:42-en",
+    "delta": 0.24300509840277074,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 0.4137133886501402,
+    "bleu": 0.6567184870529109
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_LIBER-AI-QWEN_ck26:37-en",
+    "delta": 0.1504694258687843,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.5070355342667442,
+    "bleu": 0.3565661083979599
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_ADFR_ck26:37-en",
+    "delta": 0.10361039012309209,
+    "proxy": 0.5333333333333333,
+    "qcan-bleu-strict": 0.2111527633945602,
+    "bleu": 0.3147631535176523
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_INFAI-ETI-AND-FRIENDS-C_ck26:37-en",
+    "delta": 0.02488697750545582,
+    "proxy": 0.42105263157894735,
+    "qcan-bleu-strict": 0.3191911478844275,
+    "bleu": 0.3440781253898833
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_ADFR_ck26:42-en",
+    "delta": 0.011548146466404119,
+    "proxy": 0.28571428571428575,
+    "qcan-bleu-strict": 0.13701871899633497,
+    "bleu": 0.1485668654627391
+  }
+]

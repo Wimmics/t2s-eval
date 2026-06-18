@@ -1,0 +1,340 @@
+[
+  {
+    "dataset": "custom_cases",
+    "system_name": "System with JSONL ./datasets/custom_cases/eval/system1.jsonl",
+    "metrics": {
+      "qcan-bleu-strict": 0.9009803447137341,
+      "qcan-rouge-4-strict": 0.9114589114589114,
+      "qcan-rouge-4-flex": 0.9114589114589114,
+      "qcan-bleu-flex": 0.9009803447137341,
+      "bleu": 0.4152751765852898
+    },
+    "per_query_results": [
+      {
+        "id": "path_05",
+        "metric": "qcan-bleu-strict",
+        "score": 1.0
+      },
+      {
+        "id": "fed_03",
+        "metric": "qcan-rouge-4-strict",
+        "score": 0.9090909090909091
+      },
+      {
+        "id": "path_03",
+        "metric": "qcan-bleu-strict",
+        "score": 0.6780814773941114
+      },
+      {
+        "id": "fed_02",
+        "metric": "qcan-rouge-4-strict",
+        "score": 1.0
+      },
+      {
+        "id": "graph_03",
+        "metric": "qcan-rouge-4-flex",
+        "score": 1.0
+      },
+      {
+        "id": "graph_01",
+        "metric": "qcan-bleu-flex",
+        "score": 1.0
+      },
+      {
+        "id": "graph_02",
+        "metric": "qcan-rouge-4-strict",
+        "score": 0.7142857142857143
+      },
+      {
+        "id": "combo_02",
+        "metric": "qcan-rouge-4-flex",
+        "score": 0.4074074074074074
+      },
+      {
+        "id": "fed_01",
+        "metric": "qcan-rouge-4-flex",
+        "score": 1.0
+      },
+      {
+        "id": "graph_01",
+        "metric": "bleu",
+        "score": 0.29361286432122874
+      },
+      {
+        "id": "path_02",
+        "metric": "qcan-rouge-4-strict",
+        "score": 1.0
+      },
+      {
+        "id": "path_05",
+        "metric": "qcan-rouge-4-flex",
+        "score": 1.0
+      },
+      {
+        "id": "path_02",
+        "metric": "qcan-bleu-flex",
+        "score": 1.0
+      },
+      {
+        "id": "fed_02",
+        "metric": "qcan-bleu-flex",
+        "score": 1.0
+      },
+      {
+        "id": "combo_01",
+        "metric": "qcan-bleu-flex",
+        "score": 1.0
+      },
+      {
+        "id": "graph_01",
+        "metric": "qcan-rouge-4-flex",
+        "score": 1.0
+      },
+      {
+        "id": "fed_02",
+        "metric": "qcan-bleu-strict",
+        "score": 1.0
+      },
+      {
+        "id": "graph_01",
+        "metric": "qcan-bleu-strict",
+        "score": 1.0
+      },
+      {
+        "id": "path_02",
+        "metric": "qcan-bleu-strict",
+        "score": 1.0
+      },
+      {
+        "id": "graph_02",
+        "metric": "qcan-bleu-flex",
+        "score": 0.7348889200874658
+      },
+      {
+        "id": "path_04",
+        "metric": "qcan-rouge-4-strict",
+        "score": 1.0
+      },
+      {
+        "id": "path_03",
+        "metric": "qcan-rouge-4-strict",
+        "score": 0.8181818181818181
+      },
+      {
+        "id": "path_02",
+        "metric": "bleu",
+        "score": 0.3087818953963449
+      },
+      {
+        "id": "combo_02",
+        "metric": "bleu",
+        "score": 0.8787419089273848
+      },
+      {
+        "id": "graph_02",
+        "metric": "bleu",
+        "score": 0.8003203203844999
+      },
+      {
+        "id": "path_04",
+        "metric": "qcan-bleu-flex",
+        "score": 1.0
+      },
+      {
+        "id": "fed_03",
+        "metric": "qcan-rouge-4-flex",
+        "score": 0.9090909090909091
+      },
+      {
+        "id": "combo_01",
+        "metric": "qcan-rouge-4-strict",
+        "score": 1.0
+      },
+      {
+        "id": "fed_03",
+        "metric": "qcan-bleu-flex",
+        "score": 0.7691605673134586
+      },
+      {
+        "id": "path_01",
+        "metric": "qcan-rouge-4-strict",
+        "score": 1.0
+      },
+      {
+        "id": "graph_02",
+        "metric": "qcan-rouge-4-flex",
+        "score": 0.7142857142857143
+      },
+      {
+        "id": "graph_03",
+        "metric": "bleu",
+        "score": 0.10567527775325238
+      },
+      {
+        "id": "combo_01",
+        "metric": "qcan-bleu-strict",
+        "score": 1.0
+      },
+      {
+        "id": "path_02",
+        "metric": "qcan-rouge-4-flex",
+        "score": 1.0
+      },
+      {
+        "id": "path_01",
+        "metric": "bleu",
+        "score": 0.056952389785504105
+      },
+      {
+        "id": "fed_02",
+        "metric": "qcan-rouge-4-flex",
+        "score": 1.0
+      },
+      {
+        "id": "path_05",
+        "metric": "bleu",
+        "score": 0.5923033072023249
+      },
+      {
+        "id": "graph_02",
+        "metric": "qcan-bleu-strict",
+        "score": 0.7348889200874658
+      },
+      {
+        "id": "path_04",
+        "metric": "bleu",
+        "score": 0.05200800256308058
+      },
+      {
+        "id": "combo_02",
+        "metric": "qcan-bleu-flex",
+        "score": 0.5306135164835066
+      },
+      {
+        "id": "combo_02",
+        "metric": "qcan-bleu-strict",
+        "score": 0.5306135164835066
+      },
+      {
+        "id": "path_04",
+        "metric": "qcan-bleu-strict",
+        "score": 1.0
+      },
+      {
+        "id": "combo_01",
+        "metric": "bleu",
+        "score": 0.12186709844799734
+      },
+      {
+        "id": "path_01",
+        "metric": "qcan-bleu-flex",
+        "score": 1.0
+      },
+      {
+        "id": "fed_03",
+        "metric": "bleu",
+        "score": 0.8242367502646054
+      },
+      {
+        "id": "fed_03",
+        "metric": "qcan-bleu-strict",
+        "score": 0.7691605673134586
+      },
+      {
+        "id": "path_04",
+        "metric": "qcan-rouge-4-flex",
+        "score": 1.0
+      },
+      {
+        "id": "path_01",
+        "metric": "qcan-bleu-strict",
+        "score": 1.0
+      },
+      {
+        "id": "graph_03",
+        "metric": "qcan-rouge-4-strict",
+        "score": 1.0
+      },
+      {
+        "id": "combo_01",
+        "metric": "qcan-rouge-4-flex",
+        "score": 1.0
+      },
+      {
+        "id": "fed_01",
+        "metric": "qcan-rouge-4-strict",
+        "score": 1.0
+      },
+      {
+        "id": "path_03",
+        "metric": "qcan-bleu-flex",
+        "score": 0.6780814773941114
+      },
+      {
+        "id": "path_05",
+        "metric": "qcan-rouge-4-strict",
+        "score": 1.0
+      },
+      {
+        "id": "combo_02",
+        "metric": "qcan-rouge-4-strict",
+        "score": 0.4074074074074074
+      },
+      {
+        "id": "path_03",
+        "metric": "qcan-rouge-4-flex",
+        "score": 0.8181818181818181
+      },
+      {
+        "id": "fed_01",
+        "metric": "qcan-bleu-flex",
+        "score": 1.0
+      },
+      {
+        "id": "graph_03",
+        "metric": "qcan-bleu-strict",
+        "score": 1.0
+      },
+      {
+        "id": "path_05",
+        "metric": "qcan-bleu-flex",
+        "score": 1.0
+      },
+      {
+        "id": "fed_01",
+        "metric": "qcan-bleu-strict",
+        "score": 1.0
+      },
+      {
+        "id": "graph_01",
+        "metric": "qcan-rouge-4-strict",
+        "score": 1.0
+      },
+      {
+        "id": "graph_03",
+        "metric": "qcan-bleu-flex",
+        "score": 1.0
+      },
+      {
+        "id": "fed_02",
+        "metric": "bleu",
+        "score": 0.30130404892785684
+      },
+      {
+        "id": "path_01",
+        "metric": "qcan-rouge-4-flex",
+        "score": 1.0
+      },
+      {
+        "id": "path_03",
+        "metric": "bleu",
+        "score": 0.7691605673134586
+      },
+      {
+        "id": "fed_01",
+        "metric": "bleu",
+        "score": 0.29361286432122874
+      }
+    ]
+  }
+]

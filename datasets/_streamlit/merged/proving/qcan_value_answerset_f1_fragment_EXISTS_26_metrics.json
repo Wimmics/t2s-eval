@@ -1,0 +1,65 @@
+[
+  {
+    "metric": "exact_match_spinach",
+    "pearson": 0.5929326140000606,
+    "pearson_ci_low": 0.3326644020067122,
+    "pearson_ci_high": 0.7801760307425203,
+    "spearman": 0.6724509623384312,
+    "kendall_tau_b": 0.5989527482354798,
+    "pairwise_accuracy": 0.679372197309417
+  },
+  {
+    "metric": "bleu",
+    "pearson": 0.2516993187180854,
+    "pearson_ci_low": -0.19068905909260028,
+    "pearson_ci_high": 0.5761071006398591,
+    "spearman": 0.20228729547579996,
+    "kendall_tau_b": 0.17332510941291596,
+    "pairwise_accuracy": 0.5964125560538116
+  },
+  {
+    "metric": "qcan-bleu-strict",
+    "pearson": 0.1567676366327503,
+    "pearson_ci_low": -0.42887951413783454,
+    "pearson_ci_high": 0.4880491687972121,
+    "spearman": 0.025364545694781887,
+    "kendall_tau_b": 0.044663813523472325,
+    "pairwise_accuracy": 0.5246636771300448
+  },
+  {
+    "metric": "qcan-bleu-flex",
+    "pearson": 0.1567676366327503,
+    "pearson_ci_low": -0.41867640203851886,
+    "pearson_ci_high": 0.4910807808825155,
+    "spearman": 0.025364545694781887,
+    "kendall_tau_b": 0.044663813523472325,
+    "pairwise_accuracy": 0.5246636771300448
+  },
+  {
+    "metric": "rouge_4",
+    "pearson": -0.007974698095268299,
+    "pearson_ci_low": -0.479134347733945,
+    "pearson_ci_high": 0.38622303230774024,
+    "spearman": -0.11404115986555163,
+    "kendall_tau_b": -0.09270877945342015,
+    "pairwise_accuracy": 0.4484304932735426
+  },
+  {
+    "metric": "qcan-rouge-4-strict",
+    "pearson": -0.06383043141400832,
+    "pearson_ci_low": -0.5890095123329532,
+    "pearson_ci_high": 0.3488319587742848,
+    "spearman": -0.13950500132130034,
+    "kendall_tau_b": -0.11775005383460886,
+    "pairwise_accuracy": 0.4349775784753363
+  },
+  {
+    "metric": "qcan-rouge-4-flex",
+    "pearson": -0.06383043141400832,
+    "pearson_ci_low": -0.5897559477708508,
+    "pearson_ci_high": 0.34424702540948576,
+    "spearman": -0.13950500132130034,
+    "kendall_tau_b": -0.11775005383460886,
+    "pairwise_accuracy": 0.4349775784753363
+  }
+]

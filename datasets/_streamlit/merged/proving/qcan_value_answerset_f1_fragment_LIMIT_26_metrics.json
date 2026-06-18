@@ -1,0 +1,65 @@
+[
+  {
+    "metric": "exact_match_spinach",
+    "pearson": 0.8036459808746333,
+    "pearson_ci_low": 0.7435003830712986,
+    "pearson_ci_high": 0.8584962323647358,
+    "spearman": 0.7658322686502793,
+    "kendall_tau_b": 0.6893228451130821,
+    "pairwise_accuracy": 0.7582211197732105
+  },
+  {
+    "metric": "qcan-bleu-strict",
+    "pearson": 0.5202077492222327,
+    "pearson_ci_low": 0.395829201991905,
+    "pearson_ci_high": 0.6254062914151849,
+    "spearman": 0.41632002741241814,
+    "kendall_tau_b": 0.3229123890755495,
+    "pairwise_accuracy": 0.6879518072289157
+  },
+  {
+    "metric": "qcan-bleu-flex",
+    "pearson": 0.5021632289858283,
+    "pearson_ci_low": 0.3661356273942723,
+    "pearson_ci_high": 0.6094228610697704,
+    "spearman": 0.3677024894685884,
+    "kendall_tau_b": 0.2779033292765076,
+    "pairwise_accuracy": 0.6638554216867469
+  },
+  {
+    "metric": "qcan-rouge-4-strict",
+    "pearson": 0.5005054160055036,
+    "pearson_ci_low": 0.37883895936363315,
+    "pearson_ci_high": 0.609310421542384,
+    "spearman": 0.4217683962930795,
+    "kendall_tau_b": 0.322232378855719,
+    "pairwise_accuracy": 0.6875265768958185
+  },
+  {
+    "metric": "qcan-rouge-4-flex",
+    "pearson": 0.47881517113567396,
+    "pearson_ci_low": 0.33644389645028544,
+    "pearson_ci_high": 0.5876233824705331,
+    "spearman": 0.3722686801095325,
+    "kendall_tau_b": 0.2808821118271453,
+    "pairwise_accuracy": 0.6648121899362155
+  },
+  {
+    "metric": "rouge_4",
+    "pearson": 0.39610069480766186,
+    "pearson_ci_low": 0.2546678187549326,
+    "pearson_ci_high": 0.506655708756269,
+    "spearman": 0.25080762419473146,
+    "kendall_tau_b": 0.19062812220326747,
+    "pairwise_accuracy": 0.6124025513819986
+  },
+  {
+    "metric": "bleu",
+    "pearson": 0.3222007996645633,
+    "pearson_ci_low": 0.16214287035136749,
+    "pearson_ci_high": 0.4570806547057475,
+    "spearman": 0.15704797794002698,
+    "kendall_tau_b": 0.11597476879565374,
+    "pairwise_accuracy": 0.5684620836286322
+  }
+]

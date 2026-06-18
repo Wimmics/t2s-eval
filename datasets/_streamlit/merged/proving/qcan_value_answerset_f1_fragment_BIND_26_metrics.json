@@ -1,0 +1,65 @@
+[
+  {
+    "metric": "exact_match_spinach",
+    "pearson": 0.6940751972823933,
+    "pearson_ci_low": 0.4644151019485769,
+    "pearson_ci_high": 0.8617006747585783,
+    "spearman": 0.6636490846274722,
+    "kendall_tau_b": 0.5860717395144065,
+    "pairwise_accuracy": 0.7012578616352201
+  },
+  {
+    "metric": "qcan-rouge-4-strict",
+    "pearson": 0.49853915525648135,
+    "pearson_ci_low": 0.2408908732510157,
+    "pearson_ci_high": 0.6838187171393992,
+    "spearman": 0.4696901889767786,
+    "kendall_tau_b": 0.3548481235341133,
+    "pairwise_accuracy": 0.6949685534591195
+  },
+  {
+    "metric": "bleu",
+    "pearson": 0.49075392011074,
+    "pearson_ci_low": 0.14558918835206977,
+    "pearson_ci_high": 0.7029223157265341,
+    "spearman": 0.26698656436298196,
+    "kendall_tau_b": 0.19630891340075649,
+    "pairwise_accuracy": 0.6084905660377359
+  },
+  {
+    "metric": "qcan-rouge-4-flex",
+    "pearson": 0.46630558300715214,
+    "pearson_ci_low": 0.17195320635711767,
+    "pearson_ci_high": 0.6478680341236034,
+    "spearman": 0.4229386289709326,
+    "kendall_tau_b": 0.3162085184580985,
+    "pairwise_accuracy": 0.6745283018867925
+  },
+  {
+    "metric": "rouge_4",
+    "pearson": 0.4578275221355678,
+    "pearson_ci_low": 0.08977150278973237,
+    "pearson_ci_high": 0.6727308374108095,
+    "spearman": 0.19044068962576274,
+    "kendall_tau_b": 0.13940777908169663,
+    "pairwise_accuracy": 0.5770440251572327
+  },
+  {
+    "metric": "qcan-bleu-strict",
+    "pearson": 0.42470849218508394,
+    "pearson_ci_low": 0.06625561202512201,
+    "pearson_ci_high": 0.6512006884186872,
+    "spearman": 0.34654861611550924,
+    "kendall_tau_b": 0.26899777106618267,
+    "pairwise_accuracy": 0.6477987421383647
+  },
+  {
+    "metric": "qcan-bleu-flex",
+    "pearson": 0.4161536854852825,
+    "pearson_ci_low": 0.06023191775401961,
+    "pearson_ci_high": 0.6443481609025926,
+    "spearman": 0.3174957877095501,
+    "kendall_tau_b": 0.24499038367023848,
+    "pairwise_accuracy": 0.6352201257861635
+  }
+]

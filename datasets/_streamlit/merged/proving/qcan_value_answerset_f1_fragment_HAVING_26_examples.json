@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "wins",
+    "query_id": "ck26_SPARQL-LLM_ck26:37-en",
+    "delta": -0.3027363357999867,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.6972636642000133
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_INFAI-ETI-AND-FRIENDS-B_ck26:30-en",
+    "delta": -0.2826981315751933,
+    "proxy": 0.4761904761904762,
+    "qcan-bleu-strict": 0.41037800886487863,
+    "bleu": 0.12767987728968533
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_LIBER-AI-QWEN_ck26:30-en",
+    "delta": -0.23280053756114272,
+    "proxy": 0.6250000000000001,
+    "qcan-bleu-strict": 0.5835030914513967,
+    "bleu": 0.35070255389025395
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_LIBER-AI-CLAUDE_ck26:30-en",
+    "delta": -0.10896736816695612,
+    "proxy": 0.6250000000000001,
+    "qcan-bleu-strict": 0.5018967764746899,
+    "bleu": 0.39292940830773376
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_IRIS_ck26:37-en",
+    "delta": -0.10772186506776132,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.31518748747255526,
+    "bleu": 0.4229093525403166
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_LIBER-AI-QWEN_ck26:37-en",
+    "delta": 0.1504694258687843,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.5070355342667442,
+    "bleu": 0.3565661083979599
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_ADFR_ck26:37-en",
+    "delta": 0.10361039012309209,
+    "proxy": 0.5333333333333333,
+    "qcan-bleu-strict": 0.2111527633945602,
+    "bleu": 0.3147631535176523
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_SPARQL-LLM_ck26:30-en",
+    "delta": 0.05330290858519415,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.376398442702175,
+    "bleu": 0.32309553411698083
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_IRIS_ck26:30-en",
+    "delta": 0.04415870127759591,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.42058147877496527,
+    "bleu": 0.37642277749736935
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_INFAI-ETI-AND-FRIENDS-C_ck26:37-en",
+    "delta": 0.02488697750545582,
+    "proxy": 0.42105263157894735,
+    "qcan-bleu-strict": 0.3191911478844275,
+    "bleu": 0.3440781253898833
+  }
+]

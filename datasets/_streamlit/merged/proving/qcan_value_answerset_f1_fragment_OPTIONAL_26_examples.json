@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "wins",
+    "query_id": "ck26_SPARQL-LLM_ck26:27-en",
+    "delta": -0.46187223155148405,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 1.0,
+    "bleu": 0.538127768448516
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_IRIS_ck26:34-en",
+    "delta": -0.1932799778558238,
+    "proxy": 0.8345418589321028,
+    "qcan-bleu-strict": 0.38388219173607735,
+    "bleu": 0.19060221388025358
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_INFAI-ETI-AND-FRIENDS-B_ck26:34-en",
+    "delta": -0.1509832547113118,
+    "proxy": 0.8350923482849605,
+    "qcan-bleu-strict": 0.20374101738243178,
+    "bleu": 0.052757762671119944
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_INFAI-ETI-AND-FRIENDS-B_ck26:27-en",
+    "delta": -0.13373236942696176,
+    "proxy": 0.8478964401294499,
+    "qcan-bleu-strict": 0.3092923161850889,
+    "bleu": 0.1755599467581271
+  },
+  {
+    "kind": "wins",
+    "query_id": "ck26_INFAI-ETI-AND-FRIENDS-A_ck26:27-en",
+    "delta": -0.08146870099559578,
+    "proxy": 1.0,
+    "qcan-bleu-strict": 0.3373154824755109,
+    "bleu": 0.25584678147991513
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_IRIS_ck26:38-en",
+    "delta": 0.20755457891277385,
+    "proxy": 0.7867867867867868,
+    "qcan-bleu-strict": 0.13766638772534812,
+    "bleu": 0.34522096663812196
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_LIBER-AI-QWEN_ck26:34-en",
+    "delta": 0.126586207999565,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.15313265680058435,
+    "bleu": 0.026546448801019373
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_IRIS_ck26:27-en",
+    "delta": 0.12243399233024804,
+    "proxy": 0.7552447552447552,
+    "qcan-bleu-strict": 0.2003909294022605,
+    "bleu": 0.3228249217325086
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_LIBER-AI-CLAUDE_ck26:27-en",
+    "delta": 0.08245903488245787,
+    "proxy": 0.7552447552447552,
+    "qcan-bleu-strict": 0.1606997596079243,
+    "bleu": 0.2431587944903822
+  },
+  {
+    "kind": "fails",
+    "query_id": "ck26_SPARQL-LLM_ck26:34-en",
+    "delta": 0.07135134852538999,
+    "proxy": 0.0,
+    "qcan-bleu-strict": 0.36048736137485443,
+    "bleu": 0.28913601284946444
+  }
+]

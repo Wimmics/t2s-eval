@@ -1,0 +1,65 @@
+[
+  {
+    "metric": "exact_match_spinach",
+    "pearson": 0.6657063772004415,
+    "pearson_ci_low": 0.425363344484051,
+    "pearson_ci_high": 0.845199187059206,
+    "spearman": 0.6713950233728838,
+    "kendall_tau_b": 0.6109406096312432,
+    "pairwise_accuracy": 0.7274096385542169
+  },
+  {
+    "metric": "qcan-bleu-strict",
+    "pearson": 0.6389952783070643,
+    "pearson_ci_low": 0.4538662399409523,
+    "pearson_ci_high": 0.79123129770795,
+    "spearman": 0.6679024555713642,
+    "kendall_tau_b": 0.5302387991888488,
+    "pairwise_accuracy": 0.7981927710843374
+  },
+  {
+    "metric": "qcan-rouge-4-strict",
+    "pearson": 0.6206558146961211,
+    "pearson_ci_low": 0.3629291738532857,
+    "pearson_ci_high": 0.8209490527730965,
+    "spearman": 0.6738757468268882,
+    "kendall_tau_b": 0.5516625890550649,
+    "pairwise_accuracy": 0.8102409638554217
+  },
+  {
+    "metric": "qcan-rouge-4-flex",
+    "pearson": 0.6075636155170644,
+    "pearson_ci_low": 0.3338464139590049,
+    "pearson_ci_high": 0.8100673781276089,
+    "spearman": 0.6464752535055911,
+    "kendall_tau_b": 0.5094369599396201,
+    "pairwise_accuracy": 0.7981927710843374
+  },
+  {
+    "metric": "qcan-bleu-flex",
+    "pearson": 0.5791627012026458,
+    "pearson_ci_low": 0.3794370563994235,
+    "pearson_ci_high": 0.7450819597461429,
+    "spearman": 0.6406025952573543,
+    "kendall_tau_b": 0.4886587845268898,
+    "pairwise_accuracy": 0.7891566265060241
+  },
+  {
+    "metric": "bleu",
+    "pearson": 0.2053216292695932,
+    "pearson_ci_low": -0.1536173866132133,
+    "pearson_ci_high": 0.5171703882976005,
+    "spearman": 0.22187254572580692,
+    "kendall_tau_b": 0.16797645718111837,
+    "pairwise_accuracy": 0.5993975903614458
+  },
+  {
+    "metric": "rouge_4",
+    "pearson": 0.10760533579998963,
+    "pearson_ci_low": -0.269959739355775,
+    "pearson_ci_high": 0.4607158082790925,
+    "spearman": 0.08874901829032278,
+    "kendall_tau_b": 0.08144313075448163,
+    "pairwise_accuracy": 0.5481927710843374
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "metric": "exact_match_spinach",
+    "pearson": 0.8393778280746864,
+    "pearson_ci_low": 0.8130925921536357,
+    "pearson_ci_high": 0.8638789496755385,
+    "spearman": 0.8569974790181305,
+    "kendall_tau_b": 0.7908071027043323,
+    "pairwise_accuracy": 0.8151705467765441
+  },
+  {
+    "metric": "qcan-rouge-4-strict",
+    "pearson": 0.43955369148462015,
+    "pearson_ci_low": 0.3913152778920582,
+    "pearson_ci_high": 0.4889569174363152,
+    "spearman": 0.4225371754136381,
+    "kendall_tau_b": 0.3300245859003425,
+    "pairwise_accuracy": 0.6984262606251394
+  },
+  {
+    "metric": "qcan-rouge-4-flex",
+    "pearson": 0.4301163618072826,
+    "pearson_ci_low": 0.37885385097000657,
+    "pearson_ci_high": 0.47801784609202985,
+    "spearman": 0.40637491917400953,
+    "kendall_tau_b": 0.31525021265718955,
+    "pairwise_accuracy": 0.6903306693772981
+  },
+  {
+    "metric": "qcan-bleu-strict",
+    "pearson": 0.39155444555993724,
+    "pearson_ci_low": 0.34101072020133655,
+    "pearson_ci_high": 0.4411451505783464,
+    "spearman": 0.36594830841381754,
+    "kendall_tau_b": 0.2840922991188861,
+    "pairwise_accuracy": 0.6708423874992869
+  },
+  {
+    "metric": "qcan-bleu-flex",
+    "pearson": 0.3787878948631856,
+    "pearson_ci_low": 0.3265591371712705,
+    "pearson_ci_high": 0.4300974406282855,
+    "spearman": 0.30739336138658147,
+    "kendall_tau_b": 0.23516801675488794,
+    "pairwise_accuracy": 0.642563569320769
+  },
+  {
+    "metric": "rouge_4",
+    "pearson": 0.3373532298823543,
+    "pearson_ci_low": 0.2843385792697337,
+    "pearson_ci_high": 0.38648068355948695,
+    "spearman": 0.2883792547202551,
+    "kendall_tau_b": 0.22136115424743827,
+    "pairwise_accuracy": 0.6342566421707179
+  },
+  {
+    "metric": "bleu",
+    "pearson": 0.26391015947847285,
+    "pearson_ci_low": 0.20810427298177406,
+    "pearson_ci_high": 0.3202145376072417,
+    "spearman": 0.21787552597664356,
+    "kendall_tau_b": 0.1641430808053246,
+    "pairwise_accuracy": 0.599837413974619
+  }
+]
