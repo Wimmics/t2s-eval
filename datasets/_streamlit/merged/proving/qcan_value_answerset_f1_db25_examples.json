@@ -49,7 +49,7 @@
   },
   {
     "kind": "fails",
-    "query_id": "db25_WSE_db25:8-en",
+    "query_id": "db25_WSE_db25:8-es",
     "delta": 0.9720271034189166,
     "proxy": 0.0,
     "qcan-bleu-strict": 1.0,
@@ -57,7 +57,7 @@
   },
   {
     "kind": "fails",
-    "query_id": "db25_WSE_db25:8-es",
+    "query_id": "db25_WSE_db25:8-en",
     "delta": 0.9720271034189166,
     "proxy": 0.0,
     "qcan-bleu-strict": 1.0,

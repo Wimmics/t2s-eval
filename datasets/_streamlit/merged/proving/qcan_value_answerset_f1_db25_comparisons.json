@@ -2,25 +2,25 @@
   {
     "better": "qcan-bleu-strict",
     "baseline": "bleu",
-    "delta_r": 0.3561374297041524,
+    "delta_r": 0.3557224878023027,
     "p_value": 0.0
   },
   {
     "better": "qcan-bleu-flex",
     "baseline": "bleu",
-    "delta_r": 0.3502409442720611,
+    "delta_r": 0.3498478337920243,
     "p_value": 0.0
   },
   {
     "better": "qcan-bleu-strict",
     "baseline": "answerset_f1",
-    "delta_r": -0.36742866700162213,
+    "delta_r": -0.36756087685981254,
     "p_value": 1.0
   },
   {
     "better": "qcan-bleu-flex",
     "baseline": "answerset_f1",
-    "delta_r": -0.37332515243371345,
+    "delta_r": -0.37343553087009096,
     "p_value": 1.0
   }
 ]

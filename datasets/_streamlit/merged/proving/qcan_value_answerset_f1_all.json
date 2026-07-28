@@ -7,66 +7,93 @@
   "summary_metrics": [
     {
       "name": "exact_match_spinach",
-      "pearson": 0.739806538879629,
-      "spearman": 0.6918619148807251,
-      "kendall_tau_b": 0.6524163600061678,
-      "pairwise_accuracy": 0.7764926613599786,
-      "pearson_ci_low": 0.7159234124165921,
-      "pearson_ci_high": 0.7626804456360636
+      "pearson": 0.7399664462120227,
+      "spearman": 0.6921119722540131,
+      "kendall_tau_b": 0.652704496266836,
+      "pairwise_accuracy": 0.7767098606554701,
+      "pearson_ci_low": 0.7160431481253963,
+      "pearson_ci_high": 0.7629793774619933
     },
     {
       "name": "qcan-rouge-4-strict",
-      "pearson": 0.6081831006846283,
-      "spearman": 0.5876380456569179,
-      "kendall_tau_b": 0.49877892259180173,
-      "pairwise_accuracy": 0.8224241487446845,
-      "pearson_ci_low": 0.5835638134249265,
-      "pearson_ci_high": 0.6328099255785105
+      "pearson": 0.6082782408096248,
+      "spearman": 0.5876884621831093,
+      "kendall_tau_b": 0.498825372137464,
+      "pairwise_accuracy": 0.8225650202790828,
+      "pearson_ci_low": 0.5835700448778838,
+      "pearson_ci_high": 0.6329417482493762
+    },
+    {
+      "name": "naive-can-rouge-4",
+      "pearson": 0.6056344831460598,
+      "spearman": 0.5710590540769899,
+      "kendall_tau_b": 0.47590491124011375,
+      "pairwise_accuracy": 0.8190117114488856,
+      "pearson_ci_low": 0.5817186226291734,
+      "pearson_ci_high": 0.6276964379350101
     },
     {
       "name": "qcan-rouge-4-flex",
-      "pearson": 0.6009264455113366,
-      "spearman": 0.567562266531442,
-      "kendall_tau_b": 0.47488826769281095,
-      "pairwise_accuracy": 0.8144729197347899,
-      "pearson_ci_low": 0.5756768713446886,
-      "pearson_ci_high": 0.6253995169536868
+      "pearson": 0.6010310022000452,
+      "spearman": 0.5676339612587809,
+      "kendall_tau_b": 0.4749537325761426,
+      "pairwise_accuracy": 0.8146243874431878,
+      "pearson_ci_low": 0.5757209431437255,
+      "pearson_ci_high": 0.6254002041164282
     },
     {
       "name": "qcan-bleu-strict",
-      "pearson": 0.5690329883880465,
-      "spearman": 0.5606699867798074,
-      "kendall_tau_b": 0.47191832278385176,
-      "pairwise_accuracy": 0.8073116353588643,
-      "pearson_ci_low": 0.5409498237020741,
-      "pearson_ci_high": 0.5965708410102009
+      "pearson": 0.5689548194193622,
+      "spearman": 0.5603854552077228,
+      "kendall_tau_b": 0.47169474621539875,
+      "pairwise_accuracy": 0.8072716329649227,
+      "pearson_ci_low": 0.5408772961465215,
+      "pearson_ci_high": 0.5964970909394058
     },
     {
       "name": "qcan-bleu-flex",
-      "pearson": 0.5589243851485056,
-      "spearman": 0.4962412918650692,
-      "kendall_tau_b": 0.39679703526290405,
-      "pairwise_accuracy": 0.7762806113254914,
-      "pearson_ci_low": 0.5311897322037369,
-      "pearson_ci_high": 0.5862207139790857
+      "pearson": 0.5588564194113759,
+      "spearman": 0.4959543175679129,
+      "kendall_tau_b": 0.39657298591315837,
+      "pairwise_accuracy": 0.776219530205133,
+      "pearson_ci_low": 0.5311853000765987,
+      "pearson_ci_high": 0.5860951483154654
+    },
+    {
+      "name": "naive-can-bleu",
+      "pearson": 0.54216438495477,
+      "spearman": 0.4490892468127621,
+      "kendall_tau_b": 0.35357456354538846,
+      "pairwise_accuracy": 0.7467499576385582,
+      "pearson_ci_low": 0.5148244993220606,
+      "pearson_ci_high": 0.5689806623198441
     },
     {
       "name": "rouge_4",
-      "pearson": 0.4377718858566031,
-      "spearman": 0.45909507421049,
-      "kendall_tau_b": 0.37797868223710307,
-      "pairwise_accuracy": 0.7518337538086154,
-      "pearson_ci_low": 0.4065517646206114,
-      "pearson_ci_high": 0.4669322900919967
+      "pearson": 0.4377155492575221,
+      "spearman": 0.4588232229242902,
+      "kendall_tau_b": 0.37777021787638965,
+      "pairwise_accuracy": 0.7517813828329156,
+      "pearson_ci_low": 0.406550060534846,
+      "pearson_ci_high": 0.46692801116085053
+    },
+    {
+      "name": "sp-bleu",
+      "pearson": 0.4011711572269743,
+      "spearman": 0.37918770525986106,
+      "kendall_tau_b": 0.29804610188689,
+      "pairwise_accuracy": 0.7081088090553476,
+      "pearson_ci_low": 0.3707796627672635,
+      "pearson_ci_high": 0.43215263077743465
     },
     {
       "name": "bleu",
-      "pearson": 0.3444687549183145,
-      "spearman": 0.36292927172442496,
-      "kendall_tau_b": 0.28296834068447135,
-      "pairwise_accuracy": 0.6975009165532626,
-      "pearson_ci_low": 0.30930562848298015,
-      "pearson_ci_high": 0.37636888719564143
+      "pearson": 0.34464236981755975,
+      "spearman": 0.36333995735200914,
+      "kendall_tau_b": 0.28331201241698245,
+      "pairwise_accuracy": 0.6978087605016217,
+      "pearson_ci_low": 0.30949006554207226,
+      "pearson_ci_high": 0.37656717209334445
     }
   ]
 }

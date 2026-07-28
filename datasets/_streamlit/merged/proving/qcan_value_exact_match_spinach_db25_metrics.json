@@ -1,12 +1,12 @@
 [
   {
     "metric": "answerset_f1",
-    "pearson": 0.663739111916986,
-    "pearson_ci_low": 0.6277355172817497,
-    "pearson_ci_high": 0.6998378582897716,
-    "spearman": 0.6080826088529876,
-    "kendall_tau_b": 0.5860947661665515,
-    "pairwise_accuracy": 0.8067406826331968
+    "pearson": 0.6640925206990527,
+    "pearson_ci_low": 0.6266841688431446,
+    "pearson_ci_high": 0.7007458566359543,
+    "spearman": 0.6087557199036383,
+    "kendall_tau_b": 0.5868281181740513,
+    "pairwise_accuracy": 0.8068373097189696
   },
   {
     "metric": "qcan-bleu-flex",
@@ -45,6 +45,24 @@
     "pairwise_accuracy": 0.7018053827576113
   },
   {
+    "metric": "naive-can-rouge-4",
+    "pearson": 0.3797074168396217,
+    "pearson_ci_low": 0.33309577129989143,
+    "pearson_ci_high": 0.4231116016039145,
+    "spearman": 0.2931801983048672,
+    "kendall_tau_b": 0.2536725918759682,
+    "pairwise_accuracy": 0.6989826139856558
+  },
+  {
+    "metric": "naive-can-bleu",
+    "pearson": 0.35619701290066824,
+    "pearson_ci_low": 0.3093822334723142,
+    "pearson_ci_high": 0.4012221030128029,
+    "spearman": 0.24069114939969913,
+    "kendall_tau_b": 0.19747571389629043,
+    "pairwise_accuracy": 0.6693472583064989
+  },
+  {
     "metric": "rouge_4",
     "pearson": 0.24502637334231037,
     "pearson_ci_low": 0.19859115251332793,
@@ -52,6 +70,15 @@
     "spearman": 0.21452358995112245,
     "kendall_tau_b": 0.1862024515475455,
     "pairwise_accuracy": 0.6449063231850117
+  },
+  {
+    "metric": "sp-bleu",
+    "pearson": 0.22441536648864546,
+    "pearson_ci_low": 0.17808421854768275,
+    "pearson_ci_high": 0.26892831001325834,
+    "spearman": 0.1883128838426318,
+    "kendall_tau_b": 0.15442707519813403,
+    "pairwise_accuracy": 0.6324968896370023
   },
   {
     "metric": "bleu",

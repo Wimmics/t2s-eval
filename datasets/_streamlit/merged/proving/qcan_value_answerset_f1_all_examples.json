@@ -33,7 +33,7 @@
   },
   {
     "kind": "wins",
-    "query_id": "db25_WSE_db25:55-es",
+    "query_id": "db25_WSE_db25:85-es",
     "delta": -0.9803552892440159,
     "proxy": 1.0,
     "qcan-bleu-strict": 1.0,

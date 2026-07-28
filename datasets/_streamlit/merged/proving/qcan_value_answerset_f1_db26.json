@@ -11,8 +11,17 @@
       "spearman": 0.8067176130137518,
       "kendall_tau_b": 0.7406331684850835,
       "pairwise_accuracy": 0.7840811054885954,
-      "pearson_ci_low": 0.7974505211794434,
-      "pearson_ci_high": 0.8606928683591967
+      "pearson_ci_low": 0.7977888380439654,
+      "pearson_ci_high": 0.8622106494081188
+    },
+    {
+      "name": "naive-can-rouge-4",
+      "pearson": 0.4911288462677403,
+      "spearman": 0.44756189695301707,
+      "kendall_tau_b": 0.34718986429480975,
+      "pairwise_accuracy": 0.7122561310926235,
+      "pearson_ci_low": 0.43417992846206666,
+      "pearson_ci_high": 0.5462615437839756
     },
     {
       "name": "qcan-rouge-4-strict",
@@ -20,8 +29,8 @@
       "spearman": 0.4371928386646175,
       "kendall_tau_b": 0.3446334614215709,
       "pairwise_accuracy": 0.7079097527382436,
-      "pearson_ci_low": 0.39674058049195843,
-      "pearson_ci_high": 0.5171539001549827
+      "pearson_ci_low": 0.3987500642224432,
+      "pearson_ci_high": 0.5165079865443637
     },
     {
       "name": "qcan-rouge-4-flex",
@@ -29,8 +38,17 @@
       "spearman": 0.4217737853429034,
       "kendall_tau_b": 0.3287478990596328,
       "pairwise_accuracy": 0.6998047535202385,
-      "pearson_ci_low": 0.39141193526929335,
-      "pearson_ci_high": 0.5099062885968915
+      "pearson_ci_low": 0.3900520674927023,
+      "pearson_ci_high": 0.5119355814963436
+    },
+    {
+      "name": "naive-can-bleu",
+      "pearson": 0.4338347098260129,
+      "spearman": 0.35510865328249286,
+      "kendall_tau_b": 0.26804381001007976,
+      "pairwise_accuracy": 0.6641659645529259,
+      "pearson_ci_low": 0.37212429561101634,
+      "pearson_ci_high": 0.49178746669433704
     },
     {
       "name": "qcan-bleu-strict",
@@ -56,8 +74,17 @@
       "spearman": 0.3390699180754386,
       "kendall_tau_b": 0.26252298815361635,
       "pairwise_accuracy": 0.6601853580275565,
-      "pearson_ci_low": 0.3341016396694346,
-      "pearson_ci_high": 0.46646537879844546
+      "pearson_ci_low": 0.3344831093622462,
+      "pearson_ci_high": 0.46560503772294887
+    },
+    {
+      "name": "sp-bleu",
+      "pearson": 0.3461178401109661,
+      "spearman": 0.27171692575922435,
+      "kendall_tau_b": 0.20359433905566326,
+      "pairwise_accuracy": 0.6248164834444102,
+      "pearson_ci_low": 0.28033354373120717,
+      "pearson_ci_high": 0.40937826275498546
     },
     {
       "name": "bleu",

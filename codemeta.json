@@ -122,6 +122,7 @@
     ],
     "codeRepository": "https://github.com/Wimmics/t2s-eval",
     "datePublished": "2026-05-06",
+    "dateModified": "2026-07-27",
     "description": "T2S-Eval provides a comprehensive evaluation ecosystem for Text-to-SPARQL systems, including the core t2s-metrics library, a metrics inventory, a challenge results dashboard, and a QCan family metric experimentation workspace.",
     "identifier": "t2s-eval",
     "keywords": [
@@ -130,6 +131,6 @@
         "Canonicalization"
     ],
     "name": "T2S-Eval",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "issueTracker": "https://github.com/Wimmics/t2s-eval/issues"
 }

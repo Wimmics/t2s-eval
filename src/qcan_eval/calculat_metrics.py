@@ -20,6 +20,8 @@ from t2smetrics.metrics import (
     JaccardSimilarity,
     LevenshteinDistance,
     Meteor,
+    NaiveCanBleu,
+    NaiveCanRougeN,
     PrecisionAtK,
     PrecisionQALD,
     QCanBleu,
@@ -38,8 +40,8 @@ from t2smetrics.metrics import (
 setup_third_party_logging(logging_level=logging.WARNING)
 
 run_experiments.run(
-    dataset="db26",
-    jsonl_evals=["./datasets/db26/eval/"],
+    dataset="db25",
+    jsonl_evals=["./datasets/db25/eval/"],
     metrics_list=[
         AnswerSetPrecision(),
         AnswerSetRecall(),
@@ -59,6 +61,8 @@ run_experiments.run(
         LevenshteinDistance(),
         MRR(),
         Meteor(),
+        NaiveCanBleu(),
+        NaiveCanRougeN(n=4),
         NDCG(),
         PrecisionAtK(k=1),
         QueryExecution(),
@@ -77,7 +81,7 @@ run_experiments.run(
         QCanRougeN(n=4, calculation_type="flex"),
         QCanRougeN(n=4, calculation_type="strict"),
     ],
-    execution_backend_endpoint_url="http://localhost:8871/",
+    execution_backend_endpoint_url="http://localhost:8887/",
     verbose=True,
     parallel=True,
     per_query=True,

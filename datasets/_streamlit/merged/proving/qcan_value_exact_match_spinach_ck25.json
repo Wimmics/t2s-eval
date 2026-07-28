@@ -11,8 +11,8 @@
       "spearman": 0.7741790379286275,
       "kendall_tau_b": 0.7216662092174196,
       "pairwise_accuracy": 0.9703964359504132,
-      "pearson_ci_low": 0.7640781808105336,
-      "pearson_ci_high": 0.867105337499987
+      "pearson_ci_low": 0.7637242777103137,
+      "pearson_ci_high": 0.8661052983281822
     },
     {
       "name": "qcan-rouge-4-strict",
@@ -51,6 +51,24 @@
       "pearson_ci_high": 0.6165632454909095
     },
     {
+      "name": "naive-can-rouge-4",
+      "pearson": 0.4701454982496573,
+      "spearman": 0.4315398514525594,
+      "kendall_tau_b": 0.36027834327324515,
+      "pairwise_accuracy": 0.8095461002066116,
+      "pearson_ci_low": 0.38604028276592733,
+      "pearson_ci_high": 0.5472149379789428
+    },
+    {
+      "name": "naive-can-bleu",
+      "pearson": 0.3965361915789761,
+      "spearman": 0.3440749505999084,
+      "kendall_tau_b": 0.28369660386116136,
+      "pairwise_accuracy": 0.7479661673553719,
+      "pearson_ci_low": 0.2979585346009119,
+      "pearson_ci_high": 0.4886433624540653
+    },
+    {
       "name": "rouge_4",
       "pearson": 0.35266251856662034,
       "spearman": 0.33390185688603585,
@@ -58,6 +76,15 @@
       "pairwise_accuracy": 0.7386363636363636,
       "pearson_ci_low": 0.26071800361728836,
       "pearson_ci_high": 0.4377545117800827
+    },
+    {
+      "name": "sp-bleu",
+      "pearson": 0.2710060208206272,
+      "spearman": 0.2666229934780539,
+      "kendall_tau_b": 0.21980489776108886,
+      "pairwise_accuracy": 0.6921487603305785,
+      "pearson_ci_low": 0.17551417415940374,
+      "pearson_ci_high": 0.3674585482482843
     },
     {
       "name": "bleu",

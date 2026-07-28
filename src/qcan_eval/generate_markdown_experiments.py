@@ -5,6 +5,8 @@ import json
 import sys
 from pathlib import Path
 
+import pandas as pd
+
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
@@ -85,9 +87,12 @@ def main() -> None:
                 "exact_match_spinach",
                 "qcan-bleu-strict",
                 "qcan-bleu-flex",
+                "naive-can-bleu",
+                "naive-can-rouge-4",
                 "rouge_4",
                 "qcan-rouge-4-strict",
                 "qcan-rouge-4-flex",
+                "sp-bleu",
             ],
             execution_backend_endpoint_url=endpoint,
             parallel=True,
@@ -178,5 +183,39 @@ def main() -> None:
     print(f"Created merged files under {merged_output_dir}")
 
 
+def generate_markdown_tables():
+    datasets = ["all", "ck25", "ck26", "db25", "db26"]
+    proxies = ["answerset_f1", "exact_match_spinach"]
+    sections: list[str] = ["# Experiment Results", ""]
+
+    proving_path = "./datasets/_streamlit/merged/proving/"
+    markdown_output = "./results_analysis/experiment_results.md"
+
+    for dataset in datasets:
+        for proxy in proxies:
+            sections.append("## Step 4: proving qcan value")
+            sections.append(f"### {dataset} / {proxy}")
+            sections.append("##### Metric ranking:")
+            metric_df = pd.read_csv(
+                proving_path + f"qcan_value_{proxy}_{dataset}_metrics.csv"
+            )
+            sections.append(markdown_table(metric_df))
+            sections.append("##### Significance checks:")
+            comparison_df = pd.read_csv(
+                proving_path + f"qcan_value_{proxy}_{dataset}_comparisons.csv"
+            )
+            sections.append(markdown_table(comparison_df))
+            sections.append("##### Qualitative examples:")
+            examples_df = pd.read_csv(
+                proving_path + f"qcan_value_{proxy}_{dataset}_examples.csv"
+            )
+            sections.append(markdown_table(examples_df))
+            sections.append("")
+
+    with open(markdown_output, "w", encoding="utf-8") as handle:
+        handle.write("\n".join(sections))
+
+
 if __name__ == "__main__":
-    main()
+    # main()
+    generate_markdown_tables()

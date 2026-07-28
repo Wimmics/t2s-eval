@@ -1,6 +1,6 @@
 [project]
 name = "t2s-eval"
-version = "0.0.1"
+version = "1.0.1"
 description = "The evaluation framework for t2s-metrics."
 readme = "README.md"
 requires-python = ">=3.12"
@@ -12,7 +12,7 @@ dependencies = [
     "nbformat>=5.10.4",
     "pyyaml>=6.0",
     "streamlit>=1.36",
-    "t2s-metrics>=1.1.2",
+    "t2s-metrics>=1.1.3",
     "openpyxl>=3.1.5",
     "matplotlib>=3.10.0",
     "requests>=2.32.5",

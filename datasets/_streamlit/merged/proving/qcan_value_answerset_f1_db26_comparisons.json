@@ -3,13 +3,13 @@
     "better": "qcan-bleu-strict",
     "baseline": "bleu",
     "delta_r": 0.09705358148988652,
-    "p_value": 0.001
+    "p_value": 0.0013333333333333333
   },
   {
     "better": "qcan-bleu-flex",
     "baseline": "bleu",
     "delta_r": 0.08361828818269446,
-    "p_value": 0.005333333333333333
+    "p_value": 0.006666666666666667
   },
   {
     "better": "qcan-bleu-strict",

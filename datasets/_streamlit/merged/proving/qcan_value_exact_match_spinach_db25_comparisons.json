@@ -14,13 +14,13 @@
   {
     "better": "qcan-bleu-strict",
     "baseline": "answerset_f1",
-    "delta_r": -0.261789776291491,
+    "delta_r": -0.2621431850735577,
     "p_value": 1.0
   },
   {
     "better": "qcan-bleu-flex",
     "baseline": "answerset_f1",
-    "delta_r": -0.25486407627541147,
+    "delta_r": -0.25521748505747816,
     "p_value": 1.0
   }
 ]

@@ -11,8 +11,8 @@
       "spearman": 0.7741790379286275,
       "kendall_tau_b": 0.7216662092174196,
       "pairwise_accuracy": 0.7767889368007143,
-      "pearson_ci_low": 0.7640781808105336,
-      "pearson_ci_high": 0.867105337499987
+      "pearson_ci_low": 0.7637110574486324,
+      "pearson_ci_high": 0.8690088981497707
     },
     {
       "name": "qcan-rouge-4-strict",
@@ -20,8 +20,8 @@
       "spearman": 0.5815135310422004,
       "kendall_tau_b": 0.4853301765369685,
       "pairwise_accuracy": 0.8066219630340217,
-      "pearson_ci_low": 0.5272645268371204,
-      "pearson_ci_high": 0.6600812548452882
+      "pearson_ci_low": 0.5267110533880495,
+      "pearson_ci_high": 0.6575122006463339
     },
     {
       "name": "qcan-rouge-4-flex",
@@ -29,8 +29,8 @@
       "spearman": 0.558130043259965,
       "kendall_tau_b": 0.45747137276482475,
       "pairwise_accuracy": 0.797114526147826,
-      "pearson_ci_low": 0.5152539303388742,
-      "pearson_ci_high": 0.6482393921809045
+      "pearson_ci_low": 0.5143569936240772,
+      "pearson_ci_high": 0.6498169403335341
     },
     {
       "name": "qcan-bleu-strict",
@@ -42,6 +42,15 @@
       "pearson_ci_high": 0.6327230675780846
     },
     {
+      "name": "naive-can-rouge-4",
+      "pearson": 0.5436937045926026,
+      "spearman": 0.5152226595876582,
+      "kendall_tau_b": 0.42073468928948216,
+      "pairwise_accuracy": 0.7772923275649184,
+      "pearson_ci_low": 0.4636016993345228,
+      "pearson_ci_high": 0.616434373858418
+    },
+    {
       "name": "qcan-bleu-flex",
       "pearson": 0.5414508696661998,
       "spearman": 0.47331737822937514,
@@ -51,13 +60,31 @@
       "pearson_ci_high": 0.6160325592221368
     },
     {
+      "name": "naive-can-bleu",
+      "pearson": 0.4586288396958211,
+      "spearman": 0.3862550063774643,
+      "kendall_tau_b": 0.30796989737105795,
+      "pairwise_accuracy": 0.7064851927131812,
+      "pearson_ci_low": 0.3603528106780168,
+      "pearson_ci_high": 0.5426129404528697
+    },
+    {
       "name": "rouge_4",
       "pearson": 0.4011657593376968,
       "spearman": 0.3925292424827293,
       "kendall_tau_b": 0.317272850188273,
       "pairwise_accuracy": 0.7069600896605437,
-      "pearson_ci_low": 0.3133074335984873,
-      "pearson_ci_high": 0.4835145822494525
+      "pearson_ci_low": 0.312171365241046,
+      "pearson_ci_high": 0.48646093842883603
+    },
+    {
+      "name": "sp-bleu",
+      "pearson": 0.3555214853587665,
+      "spearman": 0.3303147942059052,
+      "kendall_tau_b": 0.26339427858399894,
+      "pairwise_accuracy": 0.6766236726630321,
+      "pearson_ci_low": 0.25856213643022496,
+      "pearson_ci_high": 0.4460605805075678
     },
     {
       "name": "bleu",
